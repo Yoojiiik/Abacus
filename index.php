@@ -14,7 +14,9 @@
       <section class="production">
       <div class="conteiner"></div>
       </section>
-      <section class="what"></section>
+      <section class="what">
+        <div class="conteiner"></div>
+      </section>
       <section class="recomindation"></section>
       <section class="customers"></section>
       <section class="reviews"></section>
