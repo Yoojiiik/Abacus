@@ -6,7 +6,7 @@
    <main class="main">
       <section class="history"></section>
       <section class="mission">
-        <div class="container"></div>
+        <container></container>
       </section>
       <section class="production"></section>
       <section class="what"></section>
