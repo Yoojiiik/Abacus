@@ -5,16 +5,18 @@
 </header>
    <main class="main">
       <section class="history">
-        <div class="conteiner"></div>
-        </section>
-      <section class="mission">
-        <conteiner></conteiner>
+        <div class="conteiner">
+          <div></div>
+        </div>
       </section>
+      
       <section class="mission"></section>
       <section class="production">
-        <container></container>
+      <div class="conteiner"></div>
       </section>
-      <section class="what"></section>
+      <section class="what">
+        <div class="conteiner"></div>
+      </section>
       <section class="recomindation"></section>
       <section class="customers"></section>
       <section class="reviews"></section>
