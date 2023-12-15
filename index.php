@@ -10,17 +10,25 @@
         </div>
       </section>
       
+  
       <section class="mission"></section>
+      
       <section class="production">
       <div class="conteiner"></div>
       </section>
+
       <section class="what">
         <div class="conteiner">
           <div></div>
         </div>
       </section>
+
       <section class="recomindation"></section>
-      <section class="customers"></section>
+
+      <section class="customers">
+        <div class="conteiner"></div>
+      </section>
+
       <section class="reviews"></section>
 </main>
 <footer class="footer">
