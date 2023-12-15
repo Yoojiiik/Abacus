@@ -5,7 +5,9 @@
 </header>
    <main class="main">
       <section class="history">
-        <div class="conteiner"></div>
+        <div class="conteiner">
+          <div></div>
+        </div>
       </section>
       
       <section class="mission"></section>
