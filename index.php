@@ -6,7 +6,9 @@
    <main class="main">
       <section class="history"></section>
       <section class="mission"></section>
-      <section class="production"></section>
+      <section class="production">
+        <div class="container"></div>
+      </section>
       <section class="what"></section>
       <section class="recomindation"></section>
       <section class="customers"></section>
