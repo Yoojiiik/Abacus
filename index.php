@@ -4,7 +4,9 @@
     <?php require_once('header.php') ?>
 </header>
    <main class="main">
-      <section class="history"></section>
+      <section class="history">
+        <conteiner></conteiner>
+      </section>
       <section class="mission"></section>
       <section class="production"></section>
       <section class="what"></section>
