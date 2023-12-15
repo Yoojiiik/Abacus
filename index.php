@@ -5,9 +5,7 @@
 </header>
    <main class="main">
       <section class="history"></section>
-      <section class="mission">
-        <div class="container"></div>
-      </section>
+      <section class="mission"></section>
       <section class="production"></section>
       <section class="what"></section>
       <section class="recomindation"></section>
