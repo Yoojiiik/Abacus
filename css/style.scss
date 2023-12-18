@@ -1,9 +1,54 @@
-@import"./vars";
 @use"./fonts";
 @use"./extands";
-@use"./normalise"
+@use"./normalise";
+@import"./vars";
+
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  min-width: 1440px;
+  margin: 0 auto;
+}
 
 // -----------------------------------HEADER-------------------------------------- //
+  .header-top__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .header-top__abacus {
+    background-color: #333F44;
+  }
+
+  .header-top__menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 46px;
+  }
+
+  .header-top__link {
+    color: #ffffff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    text-decoration: none;
+  }
+
+
+
 // ------------------------------------MAIN--------------------------------------- //
 // -----------------------------------HISTORY------------------------------------- //
 // ----------------------------------MISSION-------------------------------------- //

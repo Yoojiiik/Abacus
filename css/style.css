@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Optima Cyr Bold", serif;
+  src: url("../assets/fonts/optima-cyr-bold/optima-cyr-bold.ttf") format("truetype"), url("../assets/fonts/optima-cyr-bold/optima-cyr-bold.woff") format("woff"), url("../assets/fonts/optima-cyr-bold/optima-cyr-bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Regular", sans-serif;
+  src: url("../assets/fonts/roboto-regular/roboto-regular.ttf") format("truetype"), url("../assets/fonts/roboto-regular/roboto-regular.woff") format("woff"), url("../assets/fonts/roboto-regular/roboto-regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Light", sans-serif;
+  src: url("../assets/fonts/roboto-light/roboto-light.ttf") format("truetype"), url("../assets/fonts/roboto-light/roboto-light.woff") format("woff"), url("../assets/fonts/roboto-light/roboto-light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Bold", sans-serif;
+  src: url("../assets/fonts/roboto-bold/roboto-bold.ttf") format("truetype"), url("../assets/fonts/roboto-bold/roboto-bold.woff") format("woff"), url("../assets/fonts/roboto-bold/roboto-bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 h1,
 h2,
 h3,
@@ -14,4 +38,47 @@ h6 {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  min-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-top__wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-top__abacus {
+  background-color: #333F44;
+}
+
+.header-top__menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 46px;
+}
+
+.header-top__link {
+  color: #ffffff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
 }
