@@ -5,35 +5,16 @@
 </header>
    <main class="main">
       <section class="history">
-        <div class="conteiner">
+        <div class="container">
           <div></div>
         </div>
       </section>
     
-  
       <section class="mission">
-      <div class="conteiner"></div>
+      <div class="container"></div>
       </section>
-      
-      <section class="production">
-      <div class="conteiner"></div>
-      </section>
-
-      <section class="what">
-        <div class="conteiner">
-          <div></div>
-        </div>
-      </section>
-
-      <section class="recomindation"></section>
-
-      <section class="customers">
-        <div class="conteiner"></div>
-      </section>
-
-      <section class="reviews"></section>
 </main>
-<footer class="footer">
+<footer class="footer" id="footer">
 <?php require_once('footer.php') ?>
 </footer>
 </body>
