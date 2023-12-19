@@ -84,6 +84,7 @@ body {
 }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 .footer {
   background-color: #02bf91;
   color: #ffffff;
@@ -162,6 +163,8 @@ body {
   }
 }
 =======
+=======
+>>>>>>> Stashed changes
 .for_who {
   display: flex;
   max-width: 1440px;
@@ -197,5 +200,9 @@ body {
 
 .for_who_card {
   margin: 10px;
+<<<<<<< Updated upstream
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> Stashed changes
+=======
 }/*# sourceMappingURL=style.css.map */
 >>>>>>> Stashed changes
