@@ -1,4 +1,7 @@
 <<<<<<< Updated upstream
+
+=======
+<<<<<<< Updated upstream
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -11,6 +14,7 @@
     <meta name="description" content="Уникальное устройство для обучения счету для детей с ограниченными возможностями здоровья от AbacusKids" />
 </head>
 =======
+>>>>>>> Stashed changes
 <div class="conteiner">
    <div class="header-top__wrapper">
       <div class="header-top__abacus">
@@ -74,4 +78,8 @@
             <li><a class="menu__item" href="#">Контакты</a></li>
       </ul>
    </div>
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes
