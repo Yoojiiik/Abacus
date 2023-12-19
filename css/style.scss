@@ -47,6 +47,45 @@ body {
 }
 
 // ------------------------------------MAIN--------------------------------------- //
+// -----------------------------------FOR_WHO------------------------------------- //
+.for_who {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.for_who_block .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.for_who_title {
+  background-color: rgb(2, 191, 145);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+.for_who_card div {
+  display: grid;
+  align-items: end;
+}
+
+.for_who_card .card {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.for_who_card {
+  margin: 10px;
+}
+
+
 // -----------------------------------HISTORY------------------------------------- //
 // ----------------------------------MISSION-------------------------------------- //
 // ---------------------------------PRODUCTION------------------------------------ //
