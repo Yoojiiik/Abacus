@@ -50,8 +50,8 @@ body {
 // -----------------------------------FOR_WHO------------------------------------- //
 .for_who {
   display: flex;
-  max-width: 1440px;
   margin: 0 auto;
+  border-bottom: 1px solid gray;
 }
 .for_who_block .container-fluid {
   display: flex;
@@ -83,6 +83,28 @@ body {
 
 .for_who_card {
   margin: 10px;
+}
+
+// -----------------------------------DEVELOP------------------------------------- //
+.develop {
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.develop_title {
+  text-align: center;
+  padding: 20px;
+}
+
+.develop_card .card {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 

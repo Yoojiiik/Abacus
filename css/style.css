@@ -83,8 +83,64 @@ body {
   text-decoration: none;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+.for_who {
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.for_who_block .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.for_who_title {
+  background-color: rgb(2, 191, 145);
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+.for_who_card div {
+  display: grid;
+  align-items: end;
+}
+
+.for_who_card .card {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.for_who_card {
+  margin: 10px;
+}
+
+.develop {
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.develop_title {
+  text-align: center;
+  padding: 20px;
+}
+
+.develop_card .card {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .footer {
   background-color: #02bf91;
   color: #ffffff;
@@ -161,48 +217,4 @@ body {
   #footer__link_block {
     order: 4;
   }
-}
-=======
-=======
->>>>>>> Stashed changes
-.for_who {
-  display: flex;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.for_who_block .container-fluid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.for_who_title {
-  background-color: rgb(2, 191, 145);
-  color: #ffffff;
-  text-align: center;
-  padding: 20px;
-}
-
-.for_who_card div {
-  display: grid;
-  align-items: end;
-}
-
-.for_who_card .card {
-  text-align: center;
-}
-
-.card img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.for_who_card {
-  margin: 10px;
-<<<<<<< Updated upstream
 }/*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
-=======
-}/*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
