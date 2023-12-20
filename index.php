@@ -20,7 +20,7 @@
                   <img src="assets/pic/for_who/child1.png" class="rounded" class="card-img-bottom" alt="здесь изображен человек">
                 </div>        
                 
-              </div>ad
+              </div>
 
               <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
