@@ -20,7 +20,7 @@
                   <img src="assets/pic/for_who/child1.png" class="rounded" class="card-img-bottom" alt="здесь изображен человек">
                 </div>        
                 
-              </div>
+              </div>ad
 
               <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
@@ -74,6 +74,7 @@
       <section class="mission">
       <div class="container"></div>
       </section>
+
 </main>
 <footer class="footer" id="footer">
 <?php require_once('footer.php') ?>

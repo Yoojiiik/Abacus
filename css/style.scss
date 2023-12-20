@@ -30,7 +30,8 @@ body {
     margin: 0 auto;
   }
   .header-top__abacus {
-    background: #02BF91;
+
+background: $akvamarine;
   }
 
   .header-top__nav{
@@ -213,32 +214,7 @@ body {
   }
   }
 
-=======
-.header-top__wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-.header-top__abacus {
-  background-color: #333f44;
-}
 
-.header-top__menu {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 46px;
-}
-
-.header-top__link {
-  color: #ffffff;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: capitalize;
-  text-decoration: none;
-}
 
 
 // ------------------------------------MAIN--------------------------------------- //

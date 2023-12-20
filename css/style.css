@@ -52,7 +52,6 @@ body {
 }
 
 .container {
-
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -230,40 +229,45 @@ body {
     display: flex;
     padding: 8%;
     height: 40px;
-=======
-  max-width: 1440px;
-  margin: 0 auto;
+  }
 }
-
-.header-top__wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.header-top__abacus {
-  background-color: #333f44;
-}
-
-.header-top__menu {
-  list-style-type: none;
+.for_who {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 46px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
-.header-top__link {
+.for_who_block .container-fluid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.for_who_title {
+  background-color: rgb(2, 191, 145);
   color: #ffffff;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: capitalize;
-  text-decoration: none;
+  text-align: center;
+  padding: 20px;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+.for_who_card div {
+  display: grid;
+  align-items: end;
+}
+
+.for_who_card .card {
+  text-align: center;
+}
+
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.for_who_card {
+  margin: 10px;
+}
+
 .footer {
   background-color: #02bf91;
   color: #ffffff;
@@ -339,50 +343,5 @@ body {
   }
   #footer__link_block {
     order: 4;
-
   }
 }
-=======
-=======
->>>>>>> Stashed changes
-.for_who {
-  display: flex;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.for_who_block .container-fluid {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.for_who_title {
-  background-color: rgb(2, 191, 145);
-  color: #ffffff;
-  text-align: center;
-  padding: 20px;
-}
-
-.for_who_card div {
-  display: grid;
-  align-items: end;
-}
-
-.for_who_card .card {
-  text-align: center;
-}
-
-.card img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.for_who_card {
-  margin: 10px;
-<<<<<<< Updated upstream
-}/*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
-=======
-}/*# sourceMappingURL=style.css.map */
->>>>>>> Stashed changes
