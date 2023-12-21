@@ -28,7 +28,7 @@
                         <li><a href="">О нас</a></li>
                         <li><a href="">Задачи устройства</a></li>
                         <li><a href="">Видео</a></li>
-                        <li><a href="">Отзывы</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
                         <li><a href="">Контакты</a></li>
                     </ul>
                 </div>  
