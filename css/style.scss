@@ -227,6 +227,7 @@ background: $akvamarine;
 .for_who_block .container-fluid {
   display: flex;
   flex-wrap: wrap;
+  padding: 5px 80px;
 }
 
 
@@ -235,7 +236,13 @@ background: $akvamarine;
   color: #ffffff;
   text-align: center;
   padding: 20px;
+  font-family: "Optima Cyr Bold", serif;
 }
+
+.for_who_title h2 {
+  font-weight: 600;
+}
+
 .for_who_card div {
   display: grid;
   align-items: end;
@@ -264,12 +271,35 @@ background: $akvamarine;
 }
 
 .develop_title {
-  text-align: center;
+  display: flex;
   padding: 20px;
+  justify-content: center;
+}
+
+.develop_title h2 {
+  flex-wrap: wrap;
+  display: flex; 
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+}
+
+.develop_block .container-fluid {
+padding: 0 80px;
 }
 
 .develop_card .card {
   text-align: center;
+  box-shadow: 7px 6px 34px 16px rgba(182, 182, 182, 0.2);
+  border-radius: 25px;
+  padding-top: 20px;
+  margin: 15px;
+  height: 90%;
+}
+
+.develop_card h5 {
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
 }
 
 .card img {
@@ -277,6 +307,8 @@ background: $akvamarine;
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 
 // -----------------------------------HISTORY------------------------------------- //

@@ -11,7 +11,6 @@
           </div>
           <div class="container-fluid">
             <div class="for_who_card row row-cols-1 row-cols-md-6 g-4">
-
               <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
                   <p class="card-text">нормотипичные дети от 3-х лет</p>
@@ -65,7 +64,6 @@
       </section>
 
 
-
       <section class="develop">
       <div class="develop_block">
           <div class="develop_title">
@@ -73,65 +71,77 @@
             <img src="assets/pic/develop/brain2.png" alt="здесь изображен мозг">
           </div>
           <div class="container-fluid">
-            <div class="develop_card row row-cols-1 row-cols-md-6 g-4">
-
-              <div class="card col-md-4 col-lg-2">
-                <div class="card-body">
-                  <h5 class="card-title">ВНИМАНИЕ</h5>
-                  <p class="card-text">Устройство способствует развитию внимания</p>
-                </div>  
-                <div>
-                  <img src="assets/pic/develop/puzzle.png" class="rounded" class="card-img-bottom" alt="здесь изображен пазл">
-                </div>        
-                
+            <div class="develop_card row justify-content-center">
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">ВНИМАНИЕ</h5>
+                    <p class="card-text">Устройство способствует развитию внимания</p>
+                  </div>  
+                  <div>
+                    <img src="assets/pic/develop/puzzle.png" class="rounded" class="card-img-bottom" alt="здесь изображен пазл">
+                  </div>
+                </div>
               </div>
 
-              <div class="card col-md-4 col-lg-2">
-                <div class="card-body">
-                  <h5 class="card-title">ЛОГИКУ</h5>
-                  <p class="card-text">Устройство способствует развитию логики</p>
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">ЛОГИКУ</h5>
+                    <p class="card-text">Устройство способствует развитию логики</p>
+                  </div>
+                  <img src="assets/pic/develop/girl.png" class="card-img-bottom" alt="здесь изображена девочка">
                 </div>
-                <img src="assets/pic/develop/girl.png" class="card-img-bottom" alt="здесь изображена девочка">
               </div>
 
-              <div class="card col-md-4 col-lg-2">
-                <div class="card-body">
-                  <h5 class="card-title">ПАМЯТЬ</h5>
-                  <p class="card-text">Устройство способствует развитию памяти</p>
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">ПАМЯТЬ</h5>
+                    <p class="card-text">Устройство способствует развитию памяти</p>
+                  </div>
+                  <img src="assets/pic/develop/brain1.png" class="card-img-bottom" alt="здесь изображен мозг">
                 </div>
-                <img src="assets/pic/develop/brain1.png" class="card-img-bottom" alt="здесь изображен мозг">
               </div>
 
-              <div class="card col-md-4 col-lg-2">
-                <div class="card-body">
-                  <h5 class="card-title">ОСЯЗАНИЕ</h5>
-                  <p class="card-text">Устройство способствует развитию осязания</p>
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">ОСЯЗАНИЕ</h5>
+                    <p class="card-text">Устройство способствует развитию осязания</p>
+                  </div>
+                  <img src="assets/pic/develop/touch1.png" class="card-img-bottom" alt="здесь изображено касание рукой">
                 </div>
-                <img src="assets/pic/develop/touch1.png" class="card-img-bottom" alt="здесь изображено касание рукой">
               </div>
 
-              <div class="card col-md-4 col-lg-2">
-                <div class="card-body">
-                  <h5 class="card-title">МОТОРИКУ</h5>
-                  <p class="card-text">Устройство способствует развитию моторики</p>
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">МОТОРИКУ</h5>
+                    <p class="card-text">Устройство способствует развитию моторики</p>
+                  </div>
+                  <img src="assets/pic/develop/hand1.png" class="card-img-bottom" alt="здесь изображена рука, кубики и игрушка">
                 </div>
-                <img src="assets/pic/develop/hand1.png" class="card-img-bottom" alt="здесь изображена рука, кубики и игрушка">
               </div>
 
-              <div class="card col-md-4 col-lg-2">
-                <div class="card-body">
-                  <h5 class="card-title">МЫШЛЕНИЕ</h5>
-                  <p class="card-text">Устройство способствует развитию мышления</p>
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">МЫШЛЕНИЕ</h5>
+                    <p class="card-text">Устройство способствует развитию мышления</p>
+                  </div>
+                  <img src="assets/pic/develop/head1.png" class="card-img-bottom" alt="здесь изображена голова">
                 </div>
-                <img src="assets/pic/develop/head1.png" class="card-img-bottom" alt="здесь изображена голова">
               </div>
 
-              <div class="card col-md-4 col-lg-2">
-                <div class="card-body">
-                  <h5 class="card-title">СЛУХОВОЕ ВОСПРИЯТИЕ</h5>
-                  <p class="card-text">Устройство способствует развитию слухового восприятия</p>
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">СЛУХОВОЕ ВОСПРИЯТИЕ</h5>
+                    <p class="card-text">Устройство способствует развитию слухового восприятия</p>
+                  </div>
+                  <img src="assets/pic/develop/ear1.png" class="card-img-bottom" alt="здесь изображено ухо">
                 </div>
-                <img src="assets/pic/develop/ear1.png" class="card-img-bottom" alt="здесь изображено ухо">
               </div>
 
             </div>
