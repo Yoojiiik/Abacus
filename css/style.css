@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 0 auto;
 }
 
 .conteiner {
@@ -54,6 +54,25 @@ body {
 .container {
   max-width: 1920px;
   margin: 0 auto;
+}
+
+h2 {
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.button {
+  width: 360px;
+  height: 80px;
+  padding: 26px 110px 26px 110px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border-radius: 50px;
+  background: #FFC700;
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
 }
 
 @media (min-width: 769px) and (max-width: 1920px) {
@@ -266,6 +285,81 @@ body {
 
 .for_who_card {
   margin: 10px;
+}
+
+.button {
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+}
+
+.form-two {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.form-two-inside {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.forh2 {
+  display: flex;
+  padding-top: 50px;
+  flex-flow: column wrap;
+}
+
+.form {
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.h2 {
+  margin: 0 auto;
+}
+
+.form-inside {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 50px;
+}
+
+.checkbox_button {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.chekcbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button_for_form {
+  display: flex;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.radio {
+  display: flex;
+}
+
+.place_for_text {
+  display: flex;
+  justify-content: center;
+}
+
+.place_for_text_inside {
+  display: flex;
+  max-width: 1108px;
 }
 
 .footer {

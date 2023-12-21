@@ -20,7 +20,7 @@
                   <img src="assets/pic/for_who/child1.png" class="rounded" class="card-img-bottom" alt="здесь изображен человек">
                 </div>        
                 
-              </div>ad
+              </div>
 
               <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
@@ -73,6 +73,53 @@
     
       <section class="mission">
       <div class="container"></div>
+      </section>
+
+      <section  class="form">
+        <div class="forh2">
+        <h2 class="h2">Свяжитесь с нами!</h2>
+        <p class="formp">Остались вопросы или замечания? Просто напишите нам сообщение!</p>
+        </div>
+
+  <form action="index.html" method="post" class="form-two">
+    <div class="form-two-inside">
+      <div class="form-inside">
+          <input type="name" placeholder="ФИО" id="name" class="short-form">
+          <input type="city" placeholder="Ваш город" id="city" class="short-form">
+          <input type="diagnos" placeholder="Нозология" id="diagnos" class="short-form">
+      </div>
+
+      <div class="form-inside">
+          <input type="email" placeholder="Email" id="email" class="short-form">
+          <input type="phone" placeholder="Моб.телефон" id="city" class="short-form">
+          <input type="number" placeholder="Количество устройств" id="number" class="short-form">
+      </div>
+    </div>
+
+      <div class="place_for_text">
+      <label for="comment">
+    
+    <textarea name="comment" class="place_for_text_inside" placeholder="Введите ваше сообщение:" cols="100" rows="4"></textarea>
+      </label>
+      </div>
+
+      <div class="checkbox_button">
+          <div class="chekcbox">
+            <div class="radio">
+              <input type="radio" name="field" id="mc1">
+                <label for="mc1">Юр.лицо</label>
+                </div>
+                <div>
+              <input type="radio" name="field" id="mc2">
+                <label for="mc2">Физ.лицо</label>
+                </div>
+          </div>
+          <div class="button_for_form">
+            <button class="button" type="submit">Отправить заявку!</button>
+          </div>
+      </div>
+  </form>
+
       </section>
 
 </main>
