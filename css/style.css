@@ -22,6 +22,10 @@
   font-weight: normal;
   font-style: normal;
 }
+.reviews__parents, .reviews__teachers {
+  border-bottom: 1px solid #808080;
+}
+
 h1,
 h2,
 h3,
@@ -211,7 +215,7 @@ h2 {
     width: 150px;
     margin: 0;
     padding-left: 15%;
-    background-color: #02BF91;
+    background-color: #02bf91;
   }
   .menu__box a {
     color: black;
@@ -252,7 +256,7 @@ h2 {
 }
 .for_who {
   display: flex;
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -275,12 +279,14 @@ h2 {
 
 .for_who_card .card {
   text-align: center;
+  border: none;
 }
 
 .card img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 103px;
 }
 
 .for_who_card {
@@ -291,6 +297,68 @@ h2 {
   margin: 0 auto;
 }
 
+.reviews_title {
+  font-family: "Optima Cyr Bold", serif;
+  text-align: center;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-top: 110px;
+  color: #000000;
+}
+
+.reviews_card {
+  width: 353px;
+  height: 333px;
+  border-radius: 22px;
+  background-color: rgba(8, 79, 62, 0.1);
+  border: none;
+  padding: 15px;
+}
+
+.card-text {
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 1.0625rem;
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 90px 0;
+}
+
+.carousel-control-prev {
+  padding-right: 156px;
+}
+
+.carousel-control-next {
+  padding-left: 156px;
+}
+
+@media screen and (min-width: 1191px) and (max-width: 1920px) {
+  .reviews576 {
+    display: none;
+  }
+  .reviews1920 {
+    display: block;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1190px) {
+  .reviews1920 {
+    display: none;
+  }
+  .reviews576 {
+    display: block;
+  }
+  .carousel-control-next {
+    padding: 0;
+  }
+  .carousel-control-prev {
+    padding: 0;
+  }
+}
 form {
   display: flex;
 }
@@ -439,13 +507,13 @@ form {
 }
 
 .footer {
-  background-color: #02bf91;
+  background-color: #02BF91;
   color: #ffffff;
   padding-top: 44px;
 }
 .footer_title {
   font-family: "Optima Cyr Bold", serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   margin-bottom: 19px;
 }
@@ -494,10 +562,10 @@ form {
 }
 @media screen and (max-width: 575px) {
   .footer_title {
-    font-size: 23px;
+    font-size: 1.4375rem;
   }
   .footer_text {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .footer__work {
     margin: 60px 0 0 0;

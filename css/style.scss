@@ -1,9 +1,7 @@
-
 @use "./fonts";
 @use "./extands";
 @use "./normalise";
 @import "./vars";
-
 
 html,
 body {
@@ -17,7 +15,6 @@ body {
 }
 
 .container {
-
   max-width: 1920px;
 
   margin: 0 auto;
@@ -45,16 +42,15 @@ border: none;
 
 // -----------------------------------HEADER-------------------------------------- //
 
-@media (min-width: 769px) and (max-width: 1920px){
-.header-top__wrapper {
+@media (min-width: 769px) and (max-width: 1920px) {
+  .header-top__wrapper {
     margin: 0 auto;
   }
   .header-top__abacus {
-
-background: $akvamarine;
+    background: $akvamarine;
   }
 
-  .header-top__nav{
+  .header-top__nav {
     margin: 0 auto;
   }
 
@@ -76,7 +72,7 @@ background: $akvamarine;
     text-transform: capitalize;
     text-decoration: none;
   }
-  .header-top-menu-part-2{
+  .header-top-menu-part-2 {
     display: flex;
     width: 100%;
     background-color: white;
@@ -84,10 +80,9 @@ background: $akvamarine;
     height: 72px;
     flex-wrap: nowrap;
     justify-content: space-between;
-
   }
 
-  .left-part-menu-part-2{
+  .left-part-menu-part-2 {
     display: flex;
   }
   .abacus_logo {
@@ -95,7 +90,7 @@ background: $akvamarine;
     padding-left: 46px;
   }
   .centr_development {
-    display:flex;
+    display: flex;
     margin: 0 auto;
     text-align: start;
     max-width: 250px;
@@ -105,150 +100,146 @@ background: $akvamarine;
     vertical-align: middle;
   }
 
-  .right-part-menu-part-2{
+  .right-part-menu-part-2 {
     display: flex;
     padding-right: 20px;
   }
-  .header_mail{
+  .header_mail {
     display: flex;
     padding: 8%;
     height: 50px;
   }
-  .header_phone{
+  .header_phone {
     display: flex;
     padding: 6%;
     height: 50px;
   }
-  .oko{
+  .oko {
     display: flex;
     padding: 8%;
     height: 50px;
   }
 
-  .hamburger-menu{
+  .hamburger-menu {
     display: none;
   }
 }
 
-  @media (min-width: 320px) and (max-width: 768px){
-    .header-top__abacus {
-      display: none;
-    }
+@media (min-width: 320px) and (max-width: 768px) {
+  .header-top__abacus {
+    display: none;
+  }
 
-    #menu__toggle {
-      opacity: 0;
+  #menu__toggle {
+    opacity: 0;
   }
   #menu__toggle:checked ~ .menu__btn > span {
-      transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   #menu__toggle:checked ~ .menu__btn > span::before {
-      top: 0;
-      transform: rotate(0);
+    top: 0;
+    transform: rotate(0);
   }
   #menu__toggle:checked ~ .menu__btn > span::after {
-      top: 0;
-      transform: rotate(90deg);
+    top: 0;
+    transform: rotate(90deg);
   }
   #menu__toggle:checked ~ .menu__box {
-      visibility: visible;
-      left: 0;
+    visibility: visible;
+    left: 0;
   }
-  
+
   .menu__btn {
-      display: flex;
-      align-items: center;
-      position: fixed;
-      top: 5px;
-      left: 20px; 
-      width: 30px;
-      height: 26px;
-      cursor: pointer;
-      z-index: 1;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 5px;
+    left: 20px;
+    width: 30px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
   }
-  
+
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
-      display: block;
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      background-color: black;
-      transition-duration: .25s;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition-duration: 0.25s;
   }
   .menu__btn > span::before {
-      content: '';
-      top: -8px;
+    content: "";
+    top: -8px;
   }
   .menu__btn > span::after {
-      content: '';
-      top: 8px;
-  } 
-  .menu__box {
-      display: block;
-      position: fixed;
-      visibility: hidden;
-      top: 0;
-      left: -100%;
-      width: 150px;
-      margin: 0;
-      padding-left: 15%;
-      background-color: #02BF91;
+    content: "";
+    top: 8px;
   }
-  .menu__box a{
-      color: black;
+  .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 150px;
+    margin: 0;
+    padding-left: 15%;
+    background-color: #02bf91;
+  }
+  .menu__box a {
+    color: black;
   }
   .centr_development {
     display: none;
   }
 
-  .header-top-menu-part-2{
+  .header-top-menu-part-2 {
     display: flex;
     justify-content: end;
   }
-  .left-part-menu-part-2{
+  .left-part-menu-part-2 {
     display: flex;
   }
-  .abacus_logo{
+  .abacus_logo {
     max-width: 150px;
     padding-right: 50px;
     align-items: center;
   }
-  .right-part-menu-part-2{
+  .right-part-menu-part-2 {
     display: flex;
   }
-  .header_mail{
+  .header_mail {
     display: flex;
     padding: 8%;
     height: 40px;
   }
-  .header_phone{
+  .header_phone {
     display: flex;
     padding: 6%;
     height: 40px;
   }
-  .oko{
+  .oko {
     display: flex;
     padding: 8%;
     height: 40px;
   }
-  }
-
-
-
+}
 
 // ------------------------------------MAIN--------------------------------------- //
 // -----------------------------------FOR_WHO------------------------------------- //
 .for_who {
   display: flex;
-  max-width: 1440px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 .for_who_block .container-fluid {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .for_who_title {
   background-color: rgb(2, 191, 145);
@@ -263,13 +254,14 @@ background: $akvamarine;
 
 .for_who_card .card {
   text-align: center;
+  border: none;
 }
 
 .card img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+  width: 103px;
 }
 
 .for_who_card {
@@ -288,6 +280,73 @@ background: $akvamarine;
 // --------------------------------RECOMINDATION---------------------------------- //
 // ---------------------------------CUSTOMERS------------------------------------- //
 // -----------------------------------REVIEWS------------------------------------- //
+.reviews__parents {
+  @extend %stripe;
+}
+.reviews__teachers {
+  @extend %stripe;
+}
+
+.reviews_title {
+  font-family: "Optima Cyr Bold", serif;
+  text-align: center;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-top: 110px;
+  color: $black;
+}
+.reviews {
+  &_card {
+    width: 353px;
+    height: 333px;
+    border-radius: 22px;
+    background-color: rgba(8, 79, 62, 0.1);
+    border: none;
+    padding: 15px;
+  }
+}
+.card-text {
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 1.0625rem;
+  text-align: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 90px 0;
+}
+
+.carousel-control-prev {
+  padding-right: 156px;
+}
+.carousel-control-next {
+  padding-left: 156px;
+}
+@media screen and (min-width: 1191px) and (max-width: 1920px) {
+  .reviews576 {
+    display: none;
+  }
+  .reviews1920 {
+    display: block;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1190px) {
+  .reviews1920 {
+    display: none;
+  }
+  .reviews576 {
+    display: block;
+  }
+  .carousel-control-next {
+    padding: 0;
+  }
+  .carousel-control-prev {
+    padding: 0;
+  }
+}
 // -------------------------------------FORM-------------------------------------- //
 form{
   display: flex;
@@ -307,6 +366,7 @@ form{
   width: 100%;
   padding-top: 30px;
 }
+
 .forh2{
   display: flex;
   padding-top: 50px;
@@ -418,12 +478,12 @@ display: flex;
 }
 // -----------------------------------FOOTER-------------------------------------- //
 .footer {
-  background-color: #02bf91;
+  background-color: $akvamarine;
   color: $white;
   padding-top: 44px;
   &_title {
     font-family: "Optima Cyr Bold", serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 700;
     margin-bottom: 19px;
   }
@@ -477,10 +537,10 @@ display: flex;
 @media screen and (max-width: 575px) {
   .footer {
     &_title {
-      font-size: 23px;
+      font-size: 1.4375rem;
     }
     &_text {
-      font-size: 16px;
+      font-size: 1rem;
     }
     &__work {
       margin: 60px 0 0 0;
