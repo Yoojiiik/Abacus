@@ -77,29 +77,29 @@
 
       <section  class="form">
         <div class="forh2">
-        <h2 class="h2">Свяжитесь с нами!</h2>
+        <h2 class="tell_with_me">Свяжитесь с нами!</h2>
         <p class="formp">Остались вопросы или замечания? Просто напишите нам сообщение!</p>
         </div>
 
   <form action="index.html" method="post" class="form-two">
     <div class="form-two-inside">
       <div class="form-inside">
-          <input type="name" placeholder="ФИО" id="name" class="short-form">
-          <input type="city" placeholder="Ваш город" id="city" class="short-form">
-          <input type="diagnos" placeholder="Нозология" id="diagnos" class="short-form">
+          <input type="name" placeholder="ФИО" name="name" id="name" class="short-form">
+          <input type="city" placeholder="Ваш город" name="town" id="city" class="short-form">
+          <input type="diagnos" placeholder="Нозология" name="nozologia" id="diagnos" class="short-form">
       </div>
 
       <div class="form-inside">
-          <input type="email" placeholder="Email" id="email" class="short-form">
-          <input type="phone" placeholder="Моб.телефон" id="city" class="short-form">
-          <input type="number" placeholder="Количество устройств" id="number" class="short-form">
+          <input type="email" placeholder="Email" name="email" id="email" class="short-form">
+          <input type="phone" placeholder="Моб.телефон" name="tel" id="city" class="short-form">
+          <input type="number" placeholder="Количество устройств" name="amound" id="number" class="short-form">
       </div>
     </div>
 
       <div class="place_for_text">
-      <label for="comment">
+      <label class="lebel" for="comment">
     
-    <textarea name="comment" class="place_for_text_inside" placeholder="Введите ваше сообщение:" cols="100" rows="4"></textarea>
+    <textarea name="comment" class="place_for_text_inside" name="comment" placeholder="Введите Ваше сообщение:"></textarea>
       </label>
       </div>
 
@@ -113,6 +113,9 @@
               <input type="radio" name="field" id="mc2">
                 <label for="mc2">Физ.лицо</label>
                 </div>
+          </div>
+          <div class="text_down">
+            <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a href="./polzovatelskoe-soglashenie.php">с политикой конфеденциальности</a> и <a href="./polzovatelskoe-soglashenie.php">договором публичной оферты.</a></p>
           </div>
           <div class="button_for_form">
             <button class="button" type="submit">Отправить заявку!</button>

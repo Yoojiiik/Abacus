@@ -301,6 +301,11 @@ form{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+  max-width: 928px;
+  column-gap: 120px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 30px;
 }
 .forh2{
   display: flex;
@@ -320,18 +325,19 @@ form{
 .form-inside{
 display: flex;
 flex-flow: column wrap;
-padding: 50px;
+width: 100%;
 }
 
 .short-form {
   display: flex;
-  max-width: 200px;
+  max-width: 400px;
   margin: 10px 2px;
-  background: $grey;
+  background: $grey_new;
   border-radius: 20px;
   padding-left: 20px;
   border: none;
   height: 45px;
+  width: 100%;
 }
 
 .checkbox_button{
@@ -341,6 +347,7 @@ padding: 50px;
 .chekcbox {
   display: flex;
   justify-content: space-around;
+  padding-top: 30px;
 }
 .button_for_form{
   display: flex;
@@ -353,14 +360,62 @@ display: flex;
 }
 .place_for_text{
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
+  max-width: 928px;
+  column-gap: 120px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 10px;
 }
 .place_for_text_inside{
   display: flex;
-  max-width: 1108px;
+  max-width: 928px;
+  width: 100%;
+  height: 148px;
+  background-color: $grey_new;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+
+}
+.lebel {
+  width: 100%;
+}
+.text_down{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.press_button{
+  max-width: 570px;
+  margin: 0 auto;
 }
 
-
+// -----------------------------------POLITIKA------------------------------------ //
+.main-for-polzovatelskoe{
+  padding: 40px;
+}
+.zag_pol{
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  padding-bottom: 30px;
+}
+.p {
+  text-indent: 30px;
+}
+.pub_of{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.p_bold{
+  font-weight: 700;
+}
+.tell_with_me{
+  padding-bottom: 10px;
+}
 // -----------------------------------FOOTER-------------------------------------- //
 .footer {
   background-color: #02bf91;
