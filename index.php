@@ -117,6 +117,7 @@
                       </div>
                     </div>
                     <div class="card reviews_card">
+                      
                       <div class="card-text">
                         Стал более усидчивым, в школе самый первый решает примеры и задачи. 
                           Быстрее стал считать в уме и допускать меньше ошибок по невнимательности 
@@ -374,7 +375,7 @@
                 </div>
           </div>
           <div class="text_down">
-            <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a href="./polzovatelskoe-soglashenie.php">с политикой конфеденциальности</a> и <a href="./polzovatelskoe-soglashenie.php">договором публичной оферты.</a></p>
+            <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a href="./polzovatelskoe-soglashenie.php">с политикой конфеденциальности</a> и <a href="./publichnaya-oferta.php">договором публичной оферты.</a></p>
           </div>
           <div class="button_for_form">
             <button class="button" type="submit">Отправить заявку!</button>
