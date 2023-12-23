@@ -20,6 +20,25 @@ body {
   margin: 0 auto;
 }
 
+h2 {
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.button {
+  width: 360px;
+  height: 80px;
+  padding: 26px 110px 26px 110px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border-radius: 50px;
+  background: $yellow;
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
 // -----------------------------------HEADER-------------------------------------- //
 
 @media (min-width: 769px) and (max-width: 1920px) {
@@ -258,6 +277,12 @@ body {
   margin: 10px;
 }
 
+
+.button {
+  margin: 0 auto;
+}
+
+
 // -----------------------------------DEVELOP------------------------------------- //
 .develop {
   display: flex;
@@ -303,6 +328,7 @@ margin-bottom: 50px;
     font-weight: 600;
   }
 }
+
 
 
 // -----------------------------------HISTORY------------------------------------- //
@@ -531,6 +557,134 @@ margin-bottom: 50px;
   .carousel-control-prev {
     padding: 0;
   }
+}
+// -------------------------------------FORM-------------------------------------- //
+form {
+  display: flex;
+}
+.form-two {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+.form-two-inside {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 928px;
+  column-gap: 120px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.forh2 {
+  display: flex;
+  padding-top: 50px;
+  flex-flow: column wrap;
+}
+.form {
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  padding-top: 10px;
+}
+.h2 {
+  margin: 0 auto;
+}
+.form-inside {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+}
+
+.short-form {
+  display: flex;
+  max-width: 400px;
+  margin: 10px 2px;
+  background: $grey_new;
+  border-radius: 20px;
+  padding-left: 20px;
+  border: none;
+  height: 45px;
+  width: 100%;
+}
+
+.checkbox_button {
+  display: flex;
+  flex-flow: column wrap;
+}
+.chekcbox {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+.button_for_form {
+  display: flex;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+.radio {
+  display: flex;
+}
+.place_for_text {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 928px;
+  column-gap: 120px;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 10px;
+}
+.place_for_text_inside {
+  display: flex;
+  max-width: 928px;
+  width: 100%;
+  height: 148px;
+  background-color: $grey_new;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.lebel {
+  width: 100%;
+}
+.text_down {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.press_button {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+// -----------------------------------POLITIKA------------------------------------ //
+.main-for-polzovatelskoe {
+  padding: 40px;
+}
+.zag_pol {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  padding-bottom: 30px;
+}
+.p {
+  text-indent: 30px;
+}
+.pub_of {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.p_bold {
+  font-weight: 700;
+}
+.tell_with_me {
+  padding-bottom: 10px;
 }
 // -----------------------------------FOOTER-------------------------------------- //
 .footer {
