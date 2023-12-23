@@ -4,14 +4,14 @@
     <?php require_once('header.php') ?>
 </header>
    <main class="main">
+
       <section class="for_who" id="for_who">
         <div class="for_who_block">
           <div class="for_who_title">
-            <h2>Для кого?</h2>
+            <h2 id="for_who">Для кого?</h2>
           </div>
           <div class="container-fluid">
             <div class="for_who_card row row-cols-1 row-cols-md-6 g-4">
-
               <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
                   <p class="card-text">нормотипичные дети от 3-х лет</p>
@@ -19,7 +19,6 @@
                 <div>
                   <img src="assets/pic/for_who/child1.png" class="rounded" class="card-img-bottom" alt="здесь изображен человек">
                 </div>        
-                
               </div>
 
               <div class="card col-md-4 col-lg-2">
@@ -65,12 +64,246 @@
       </section>
 
 
-      <section class="history">
-        <div class="container">
-          <div></div>
+      <section class="develop" id="develop">
+      <div class="develop_block">
+          <div class="develop_title">
+            <h2>Развивает</h2>
+            <img src="assets/pic/develop/brain2.png" alt="здесь изображен мозг">
+          </div>
+          <div class="container-fluid">
+            <div class="develop_card row justify-content-center">
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">ВНИМАНИЕ</h5>
+                    <p class="card-text">Устройство способствует развитию внимания</p>
+                  </div>  
+                  <div>
+                    <img src="assets/pic/develop/puzzle.png" class="rounded" class="card-img-bottom" alt="здесь изображен пазл">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">ЛОГИКУ</h5>
+                    <p class="card-text">Устройство способствует развитию логики</p>
+                  </div>
+                  <img src="assets/pic/develop/girl.png" class="card-img-bottom" alt="здесь изображена девочка">
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">ПАМЯТЬ</h5>
+                    <p class="card-text">Устройство способствует развитию памяти</p>
+                  </div>
+                  <img src="assets/pic/develop/brain1.png" class="card-img-bottom" alt="здесь изображен мозг">
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">ОСЯЗАНИЕ</h5>
+                    <p class="card-text">Устройство способствует развитию осязания</p>
+                  </div>
+                  <img src="assets/pic/develop/touch1.png" class="card-img-bottom" alt="здесь изображено касание рукой">
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">МОТОРИКУ</h5>
+                    <p class="card-text">Устройство способствует развитию моторики</p>
+                  </div>
+                  <img src="assets/pic/develop/hand1.png" class="card-img-bottom" alt="здесь изображена рука, кубики и игрушка">
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">МЫШЛЕНИЕ</h5>
+                    <p class="card-text">Устройство способствует развитию мышления</p>
+                  </div>
+                  <img src="assets/pic/develop/head1.png" class="card-img-bottom" alt="здесь изображена голова">
+                </div>
+              </div>
+
+              <div class="col-md-4 col-lg-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">СЛУХОВОЕ ВОСПРИЯТИЕ</h5>
+                    <p class="card-text">Устройство способствует развитию слухового восприятия</p>
+                  </div>
+                  <img src="assets/pic/develop/ear1.png" class="card-img-bottom" alt="здесь изображено ухо">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="device_choose" id="device_choose">
+        <div class="device_choose_block">
+          <div class="device_choose_title">
+            <h2>Устройство выбирают</h2>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="device_choose_card col-lg-7 col-md-7 col-sm-12 justify-content-sm-start justify-content-md-center justify-content-lg-end">
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/device_choose/check.png" alt="здесь изображена галочка">
+                  </div>
+                  <div class="col-11">
+                    <p>Родители</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/device_choose/check.png" alt="здесь изображена галочка">
+                  </div>
+                  <div class="col-11">
+                    <p>Дефектологи</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/device_choose/check.png" alt="здесь изображена галочка">
+                  </div>
+                  <div class="col-11">
+                    <p>Нейропсихологи</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/device_choose/check.png" alt="здесь изображена галочка">
+                  </div>
+                  <div class="col-11">
+                    <p>Тифлопедагоги</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/device_choose/check.png" alt="здесь изображена галочка">
+                  </div>
+                  <div class="col-11">
+                    <p>Воспитатели</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="row">
+                    <div class="col-1">
+                      <img src="assets/pic/device_choose/check.png" alt="здесь изображена галочка">
+                    </div>
+                    <div class="col-11">
+                      <p>Тренеры по ментальной арифметике</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="device_choose_pic col-5 d-sm-none d-lg-block d-md-block d-none">
+                <img src="assets/pic/device_choose/choose.png" alt="здесь изображены список и карандаш">
+              </div>
+            </div>
+          </div>
+          <div class="device_choose_button">
+            <button type="button" class="btn button">Приобрести устройство</button>
+          </div>
         </div>
       </section>
     
+
+      <section class="task" id="task">
+        <div class="task_block">
+          <div class="task_title">
+            <h2>Задачи устройства</h2>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="task_card col-xl-7 col-lg-12 col-md-12 col-sm-12 justify-content-sm-start justify-content-md-center justify-content-lg-end">
+                <div class="row">
+                  <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                    <img src="assets/pic/task/1.png" alt="здесь изображена цифра один">
+                  </div>
+                  <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                    <p>Формирование элементарных математических представлений и развитие математических компетенций.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                    <img src="assets/pic/task/2.png" alt="здесь изображена цифра два">
+                  </div>
+                  <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                    <p>Овладение знаковой системой чисел, изучение основ математики.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1 col-sm-1 col-md-1 col-lg-1">
+                    <img src="assets/pic/task/3.png" alt="здесь изображена цифра три">
+                  </div>
+                  <div class="col-11 col-sm-11 col-md-11 col-lg-11">
+                    <p>Развитие математических видов деятельности.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/task/4.png" alt="здесь изображена цифра четыре">
+                  </div>
+                  <div class="col-11">
+                    <p>Развитие логического мышления, зрительной, слуховой и тактильной памяти, образительности.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/task/5.png" alt="здесь изображена цифра пять">
+                  </div>
+                  <div class="col-11">
+                    <p>Развитие системного, алгоритмического и образного мышления.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/task/6.png" alt="здесь изображена цифра шесть">
+                  </div>
+                  <div class="col-11">
+                    <p>Социально-коммуникативное и эмоциональное развитие.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/task/7.png" alt="здесь изображена цифра семь">
+                  </div>
+                  <div class="col-11">
+                    <p>Развитие творческого мышления.</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-1">
+                    <img src="assets/pic/task/8.png" alt="здесь изображена цифра восемь">
+                  </div>
+                  <div class="col-11">
+                    <p>Ознакомление с числительными на иностранных языках.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="task_pic col-5 d-sm-none d-md-none d-lg-none d-xl-block d-none">
+                <img src="assets/pic/task/task.png" alt="здесь изображен лист, прикрепленный булавкой">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <section class="mission">
       <div class="container"></div>
       </section>

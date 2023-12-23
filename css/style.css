@@ -239,11 +239,14 @@ body {
   display: flex;
   max-width: 1920px;
   margin: 0 auto;
+  border-bottom: 1px solid gray;
 }
 
 .for_who_block .container-fluid {
   display: flex;
   flex-wrap: wrap;
+  padding: 5px 80px;
+  margin-bottom: 50px;
 }
 
 .for_who_title {
@@ -251,6 +254,12 @@ body {
   color: #ffffff;
   text-align: center;
   padding: 20px;
+  font-family: "Optima Cyr Bold", serif;
+}
+
+.for_who_title h2 {
+  font-weight: 600;
+  font-size: 3.125rem;
 }
 
 .for_who_card div {
@@ -274,6 +283,197 @@ body {
   margin: 10px;
 }
 
+.develop {
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.develop_title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.develop_title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+}
+
+.develop_block .container-fluid {
+  padding: 0 80px;
+  margin-bottom: 50px;
+}
+
+.develop_card .card {
+  text-align: center;
+  box-shadow: 7px 6px 34px 16px rgba(182, 182, 182, 0.2);
+  border-radius: 25px;
+  padding: 20px 5px;
+  margin: 15px;
+  height: 90%;
+}
+.develop_card .card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.develop_card h5 {
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+}
+
+.device_choose {
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.device_choose_block {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.device_choose_block .container-fluid {
+  margin: 30px 0px;
+  padding-left: 30px;
+}
+
+.device_choose_title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.device_choose_title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+}
+
+.device_choose_card {
+  display: grid;
+}
+.device_choose_card div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.device_choose_card p {
+  font-size: 1.5rem;
+  padding-left: 15px;
+  font-family: "Roboto bold", sans-serif;
+}
+.device_choose_card img {
+  height: 30px;
+}
+
+.device_choose_pic {
+  display: flex;
+  justify-content: center;
+}
+.device_choose_pic img {
+  height: 290px;
+  display: flex;
+}
+
+.device_choose_button {
+  display: flex;
+  justify-content: center;
+}
+.device_choose_button .button {
+  font-size: 1.2rem;
+  padding: 20px 60px;
+  border-radius: 30px;
+  background-color: #FFD700;
+  box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
+}
+
+@media (min-width: 360px) and (max-width: 570px) {
+  .device_choose_card p {
+    font-size: 1.09rem;
+  }
+}
+.task {
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.task_block {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.task_block .container-fluid {
+  margin: 30px 0px;
+  padding-left: 30px;
+}
+
+.task_title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.task_title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+}
+
+.task_card {
+  display: grid;
+}
+.task_card div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+}
+.task_card .row {
+  margin-bottom: 10px;
+}
+.task_card p {
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-left: 15px;
+  font-family: "Roboto bold", sans-serif;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  height: 70px;
+}
+.task_card img {
+  height: 70px;
+}
+
+.task_pic {
+  display: flex;
+  justify-content: center;
+}
+.task_pic img {
+  height: 500px;
+  display: flex;
+}
+
+@media (min-width: 360px) and (max-width: 570px) {
+  .task_card div:first-child {
+    justify-content: center;
+  }
+  .task_card div {
+    margin: 5px 0;
+  }
+  .task_card img {
+    height: 50px;
+  }
+  .task_card p {
+    font-size: 1.08rem;
+    height: 50px;
+  }
+}
 .reviews_title {
   font-family: "Optima Cyr Bold", serif;
   text-align: center;
@@ -412,4 +612,4 @@ body {
   #footer__link_block {
     order: 4;
   }
-}
+}/*# sourceMappingURL=style.css.map */
