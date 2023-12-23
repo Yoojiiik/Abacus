@@ -337,7 +337,7 @@
 
       <section class="videoblog">
         <div class="container">
-          <div class="videoblog__title">Видеотзывы</div>
+          <div class="videoblog__title">Видео-отзывы</div>
           <div class="videoblog1920">
           <div class="carousel slide" id="carouselVideoblog1920" data-bs-ride="carousel" data-bs-touch="true">
               <div class="carousel-inner">
