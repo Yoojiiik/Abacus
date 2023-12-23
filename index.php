@@ -350,6 +350,7 @@
                       </div>
                     </div>
                     <div class="card reviews_card">
+                      
                       <div class="card-text">
                         Стал более усидчивым, в школе самый первый решает примеры и задачи. 
                           Быстрее стал считать в уме и допускать меньше ошибок по невнимательности 
@@ -662,6 +663,56 @@
           <button type="submit" value="" class="videoblog__button">Приобрести устройство</button>
           </div>
         </div>
+      </section>
+
+      <section  class="form">
+        <div class="forh2">
+        <h2 class="tell_with_me">Свяжитесь с нами!</h2>
+        <p class="formp">Остались вопросы или замечания? Просто напишите нам сообщение!</p>
+        </div>
+
+  <form action="index.html" method="post" class="form-two">
+    <div class="form-two-inside">
+      <div class="form-inside">
+          <input type="name" placeholder="ФИО" name="name" id="name" class="short-form">
+          <input type="city" placeholder="Ваш город" name="town" id="city" class="short-form">
+          <input type="diagnos" placeholder="Нозология" name="nozologia" id="diagnos" class="short-form">
+      </div>
+
+      <div class="form-inside">
+          <input type="email" placeholder="Email" name="email" id="email" class="short-form">
+          <input type="phone" placeholder="Моб.телефон" name="tel" id="city" class="short-form">
+          <input type="number" placeholder="Количество устройств" name="amound" id="number" class="short-form">
+      </div>
+    </div>
+
+      <div class="place_for_text">
+      <label class="lebel" for="comment">
+    
+    <textarea name="comment" class="place_for_text_inside" name="comment" placeholder="Введите Ваше сообщение:"></textarea>
+      </label>
+      </div>
+
+      <div class="checkbox_button">
+          <div class="chekcbox">
+            <div class="radio">
+              <input type="radio" name="field" id="mc1">
+                <label for="mc1">Юр.лицо</label>
+                </div>
+                <div>
+              <input type="radio" name="field" id="mc2">
+                <label for="mc2">Физ.лицо</label>
+                </div>
+          </div>
+          <div class="text_down">
+            <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a href="./polzovatelskoe-soglashenie.php">с политикой конфеденциальности</a> и <a href="./publichnaya-oferta.php">договором публичной оферты.</a></p>
+          </div>
+          <div class="button_for_form">
+            <button class="button" type="submit">Отправить заявку!</button>
+          </div>
+      </div>
+  </form>
+
       </section>
 
 </main>
