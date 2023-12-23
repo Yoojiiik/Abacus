@@ -254,6 +254,59 @@ h2 {
     height: 40px;
   }
 }
+.banner {
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.conteiner_banner-image {
+  display: flex;
+  max-width: 1920px;
+  min-height: 800px;
+  background-image: url(/assets/pic/Paklin-47.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+
+.title_banner-text {
+  font-family: "Optima Cyr Bold", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-left: 400px;
+  color: #ffffff;
+  text-align: end;
+  padding-right: 100px;
+}
+
+.banner-button {
+  display: flex;
+  margin-top: 70px;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+
+.submit_banner {
+  font-family: "Roboto Regular", sans-serif;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 55px;
+  width: 250px;
+  height: 70px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.4117647059);
+  margin-right: 50px;
+}
+
 .for_who {
   display: flex;
   max-width: 1920px;
