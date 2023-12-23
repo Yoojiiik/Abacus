@@ -26,10 +26,10 @@
                     <ul>
                         <li><a href="#for_who">Для кого</a></li>
                         <li><a href="">О нас</a></li>
-                        <li><a href="">Задачи устройства</a></li>
+                        <li><a href="#task">Задачи устройства</a></li>
                         <li><a href="">Видео</a></li>
                         <li><a href="#reviews">Отзывы</a></li>
-                        <li><a href="">Контакты</a></li>
+                        <li><a href="#form">Контакты</a></li>
                     </ul>
                 </div>  
             </div>

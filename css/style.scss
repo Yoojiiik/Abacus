@@ -277,11 +277,9 @@ h2 {
   margin: 10px;
 }
 
-
 .button {
   margin: 0 auto;
 }
-
 
 // -----------------------------------DEVELOP------------------------------------- //
 .develop {
@@ -296,7 +294,7 @@ h2 {
   justify-content: center;
   h2 {
     flex-wrap: wrap;
-    display: flex; 
+    display: flex;
     align-content: center;
     font-family: "Optima Cyr Bold", serif;
     font-weight: 600;
@@ -305,8 +303,8 @@ h2 {
 }
 
 .develop_block .container-fluid {
-padding: 0 80px;
-margin-bottom: 50px;
+  padding: 0 80px;
+  margin-bottom: 50px;
 }
 
 .develop_card {
@@ -329,8 +327,6 @@ margin-bottom: 50px;
   }
 }
 
-
-
 // -----------------------------------HISTORY------------------------------------- //
 // ----------------------------------DEVICE_CHOOSE-------------------------------- //
 .device_choose {
@@ -352,7 +348,7 @@ margin-bottom: 50px;
   justify-content: center;
   h2 {
     flex-wrap: wrap;
-    display: flex; 
+    display: flex;
     align-content: center;
     font-family: "Optima Cyr Bold", serif;
     font-weight: 600;
@@ -376,13 +372,12 @@ margin-bottom: 50px;
   }
 }
 
-
 .device_choose_pic {
   display: flex;
   justify-content: center;
   img {
     height: 290px;
-    display: flex
+    display: flex;
   }
 }
 .device_choose_button {
@@ -392,7 +387,7 @@ margin-bottom: 50px;
     font-size: 1.2rem;
     padding: 20px 60px;
     border-radius: 30px;
-    background-color: #FFD700;
+    background-color: #ffd700;
     box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
   }
 }
@@ -404,7 +399,41 @@ margin-bottom: 50px;
     }
   }
 }
+// -------------------------------------ABOUT-THE-DEVICE-------------------------------------- //
+.about-the-device {
+  @extend %stripe;
 
+  &__title {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    h2 {
+      flex-wrap: wrap;
+      display: flex;
+      align-content: center;
+      font-family: "Optima Cyr Bold", serif;
+      font-weight: 600;
+      font-size: 3.125rem;
+    }
+  }
+  &__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .about-the-device {
+    &__video {
+      display: flex;
+      justify-content: center;
+    }
+    &__video video {
+      width: 300px;
+    }
+  }
+}
 // -------------------------------------TASK-------------------------------------- //
 .task {
   margin: 0 auto;
@@ -425,7 +454,7 @@ margin-bottom: 50px;
   justify-content: center;
   h2 {
     flex-wrap: wrap;
-    display: flex; 
+    display: flex;
     align-content: center;
     font-family: "Optima Cyr Bold", serif;
     font-weight: 600;
@@ -457,7 +486,6 @@ margin-bottom: 50px;
   }
 }
 
-
 .task_pic {
   display: flex;
   justify-content: center;
@@ -485,7 +513,6 @@ margin-bottom: 50px;
     }
   }
 }
-
 
 // -----------------------WHAT_IS_THE_USE_OF_THE_DEVICE--------------------------- //
 // --------------------------------RECOMINDATION---------------------------------- //
@@ -591,6 +618,15 @@ margin-bottom: 50px;
   &__button {
     @extend %button_yellow;
   }
+  &__link {
+    text-decoration: none;
+    color: $black;
+    width: 436px;
+    height: 87px;
+    &:hover {
+      color: $black;
+    }
+  }
 }
 
 .video {
@@ -626,7 +662,7 @@ margin-bottom: 50px;
   }
   .videoblog__button {
     width: 320px;
-    margin-top: -100px;
+    margin-top: -90px;
   }
 }
 @media screen and (max-width: 575px) {

@@ -148,7 +148,16 @@
           </div>
         </div>
       </section>
-
+      <section class="about-the-device">
+        <div class="container">
+          <div class="about-the-device__title"><h2>Об устройстве</h2></div>
+          <div class="about-the-device__video">
+            <video controls type="video/mp4" controlslist="nodownload" width="522px" height="300px">
+              <source src="./assets/video/устройство.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </section>
 
 
       <section class="device_choose" id="device_choose">
@@ -569,7 +578,7 @@
         </div>
       </section>
 
-      <section class="videoblog">
+      <section class="videoblog" id="videoblog">
         <div class="container">
           <div class="videoblog__title">Видео-отзывы</div>
           <div class="videoblog1920">
@@ -660,12 +669,12 @@
             </div>
           </div>
           <div class="videoblog__button-div">
-          <button type="submit" value="" class="videoblog__button">Приобрести устройство</button>
+          <button type="button"  value="" class="videoblog__button"><a href="#form" class="videoblog__link">Приобрести устройство</a></button>
           </div>
         </div>
       </section>
 
-      <section  class="form">
+      <section  class="form" id="form">
         <div class="forh2">
         <h2 class="tell_with_me">Свяжитесь с нами!</h2>
         <p class="formp">Остались вопросы или замечания? Просто напишите нам сообщение!</p>
