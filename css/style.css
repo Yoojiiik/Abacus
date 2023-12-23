@@ -212,10 +212,10 @@ h2 {
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 150px;
+    width: 200px;
     margin: 0;
-    padding-left: 15%;
-    background-color: #02bf91;
+    padding-left: 10%;
+    background-color: white;
   }
   .menu__box a {
     color: black;
@@ -355,11 +355,9 @@ h2 {
   margin: 10px;
 }
 
-
 .button {
   margin: 0 auto;
 }
-
 
 .develop {
   display: flex;
@@ -466,7 +464,7 @@ h2 {
   font-size: 1.2rem;
   padding: 20px 60px;
   border-radius: 30px;
-  background-color: #FFD700;
+  background-color: #ffd700;
   box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
 }
 
@@ -552,7 +550,6 @@ h2 {
     height: 50px;
   }
 }
-
 .reviews_title {
   font-family: "Optima Cyr Bold", serif;
   text-align: center;
@@ -622,7 +619,8 @@ form {
 .form-two {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .form-two-inside {
@@ -630,8 +628,8 @@ form {
   flex-wrap: nowrap;
   justify-content: center;
   max-width: 928px;
-  -moz-column-gap: 120px;
-       column-gap: 120px;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
   margin: 0 auto;
   width: 100%;
   padding-top: 30px;
@@ -734,6 +732,19 @@ form {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1190px) {
+  .form-two-inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 404px;
+    -moz-column-gap: 100px;
+         column-gap: 100px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 30px;
+  }
+}
 .main-for-polzovatelskoe {
   padding: 40px;
 }
@@ -838,4 +849,4 @@ form {
   #footer__link_block {
     order: 4;
   }
-}/*# sourceMappingURL=style.css.map */
+}
