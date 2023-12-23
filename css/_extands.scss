@@ -2,3 +2,19 @@
 %stripe {
   border-bottom: 1px solid $gray;
 }
+
+%button_yellow {
+  width: 436px;
+  height: 87px;
+  border-radius: 50px;
+  background-color: $yellow;
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+  &:hover {
+    background-color: #ffb800;
+  }
+}

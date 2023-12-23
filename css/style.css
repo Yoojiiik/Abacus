@@ -22,8 +22,24 @@
   font-weight: normal;
   font-style: normal;
 }
-.reviews__parents, .reviews__teachers {
+.videoblog, .reviews__parents, .reviews__teachers {
   border-bottom: 1px solid #808080;
+}
+
+.videoblog__button {
+  width: 436px;
+  height: 87px;
+  border-radius: 50px;
+  background-color: #ffc700;
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+.videoblog__button:hover {
+  background-color: #ffb800;
 }
 
 h1,
@@ -274,6 +290,68 @@ body {
   margin: 10px;
 }
 
+.videoblog__title {
+  font-family: "Optima Cyr Bold", serif;
+  text-align: center;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 110px;
+  color: #000000;
+}
+.video_1920 {
+  width: 544px;
+  height: 370px;
+}
+.video_576 {
+  width: 488px;
+}
+
+.videoblog__button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 62px 0 71px 0;
+}
+
+@media screen and (min-width: 1191px) and (max-width: 1920px) {
+  .videoblog1920 {
+    display: block;
+  }
+  .videoblog576 {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1190px) {
+  .videoblog1920 {
+    display: none;
+  }
+  .videoblog576 {
+    display: block;
+  }
+  .videoblog__button {
+    width: 320px;
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .video_576 {
+    width: 300px;
+    height: 200px;
+  }
+  .videoblog__button {
+    width: 320px;
+    margin-top: -100px;
+  }
+}
+.reviews_card {
+  width: 353px;
+  height: 333px;
+  border-radius: 22px;
+  background-color: rgba(8, 79, 62, 0.1);
+  border: none;
+  padding: 15px;
+}
 .reviews_title {
   font-family: "Optima Cyr Bold", serif;
   text-align: center;
@@ -285,33 +363,27 @@ body {
   color: #000000;
 }
 
-.reviews_card {
-  width: 353px;
-  height: 333px;
-  border-radius: 22px;
-  background-color: rgba(8, 79, 62, 0.1);
-  border: none;
-  padding: 15px;
-}
-
 .card-text {
   font-family: "Roboto Bold", sans-serif;
   font-size: 1.0625rem;
   text-align: center;
 }
 
-.cards-wrapper {
+.card-wrapper {
   display: flex;
   justify-content: space-around;
+}
+
+.carousel-inner {
   padding: 90px 0;
 }
 
 .carousel-control-prev {
-  padding-right: 156px;
+  width: 50px;
 }
 
 .carousel-control-next {
-  padding-left: 156px;
+  width: 50px;
 }
 
 @media screen and (min-width: 1191px) and (max-width: 1920px) {
@@ -322,18 +394,32 @@ body {
     display: block;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 1190px) {
+@media screen and (min-width: 310px) and (max-width: 1190px) {
+  .reviews_title {
+    font-size: 2.5rem;
+    line-height: 30px;
+  }
+  .reviews_card {
+    width: 353px;
+    height: 380px;
+    padding: 10px;
+  }
   .reviews1920 {
     display: none;
   }
   .reviews576 {
     display: block;
   }
-  .carousel-control-next {
-    padding: 0;
+  .carousel-inner {
+    padding: 90px 25px;
   }
-  .carousel-control-prev {
+  .carousel-control-next svg {
     padding: 0;
+    margin-left: 37px;
+  }
+  .carousel-control-prev svg {
+    padding: 0;
+    margin-right: 37px;
   }
 }
 .footer {
@@ -377,6 +463,11 @@ body {
 }
 
 @media screen and (max-width: 767px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .footer__contacts {
     margin: 82px 0 40px 0;
   }
@@ -391,6 +482,9 @@ body {
   }
 }
 @media screen and (max-width: 575px) {
+  .footer {
+    text-align: center;
+  }
   .footer_title {
     font-size: 1.4375rem;
   }

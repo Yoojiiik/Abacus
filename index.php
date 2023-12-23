@@ -79,10 +79,10 @@
         <div class="container">
           <div class="reviews_title">Отзыв родителей</div>
           <div class="reviews1920">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
-              <div class="carousel-inner">
+            <div id="carouselReviews1920" class="carousel slide" data-bs-ride="carousel" >
+              <div class="carousel-inner reviews-inner">
                 <div class="carousel-item active">
-                  <div class="cards-wrapper">
+                  <div class="card-wrapper">
                     <div class="reviews_card">
                       <div class="card-text">
                         Быстрее начал считать и думать. 
@@ -107,7 +107,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="cards-wrapper">
+                  <div class="card-wrapper">
                     <div class="card reviews_card">
                       <div class="card-text">
                           Стал более усидчивым, в школе самый первый решает примеры и задачи. 
@@ -132,13 +132,13 @@
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselReviews1920"
                 data-bs-slide="prev">
                   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="39" viewBox="0 0 22 39" fill="none">
                     <path d="M21.307 3.23389C21.4949 3.05091 21.6419 2.83565 21.7394 2.60042C21.8369 2.36519 21.8831 2.11459 21.8754 1.86293C21.8677 1.61127 21.8061 1.36347 21.6943 1.13369C21.5825 0.903912 21.4225 0.696645 21.2236 0.523727C21.0247 0.350809 20.7908 0.215626 20.5351 0.125897C20.2794 0.0361669 20.007 -0.00635249 19.7335 0.00076667C19.4599 0.00788583 19.1906 0.0645038 18.9408 0.167388C18.691 0.270272 18.4657 0.417408 18.2778 0.600394L0.569464 17.8504C0.203763 18.2063 0 18.6774 0 19.1671C0 19.6569 0.203763 20.128 0.569464 20.4839L18.2778 37.7358C18.4645 37.9228 18.6897 38.0738 18.9404 38.18C19.1911 38.2863 19.4622 38.3456 19.7381 38.3546C20.0139 38.3636 20.2889 38.3221 20.5471 38.2325C20.8054 38.1429 21.0417 38.007 21.2424 37.8327C21.443 37.6584 21.6041 37.4491 21.7161 37.217C21.8281 36.985 21.8889 36.7347 21.8949 36.4809C21.9009 36.227 21.852 35.9746 21.7511 35.7383C21.6502 35.5019 21.4992 35.2864 21.307 35.1042L4.94863 19.1671L21.307 3.23389Z" fill="black"/>
                   </svg>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselReviews1920"
                 data-bs-slide="next">
                   <svg xmlns="http://www.w3.org/2000/svg" width="22" height="42" viewBox="0 0 22 42" fill="none">
                     <path d="M0.587566 3.5151C0.399611 3.3162 0.252674 3.08223 0.155142 2.82655C0.0576096 2.57086 0.0113926 2.29847 0.0191307 2.02493C0.0268688 1.75138 0.0884094 1.48204 0.200241 1.23228C0.312071 0.982513 0.472002 0.757223 0.6709 0.569269C0.869797 0.381315 1.10377 0.234376 1.35946 0.136844C1.61514 0.0393119 1.88753 -0.00690488 2.16108 0.000833337C2.43462 0.00857156 2.70396 0.0701128 2.95373 0.181944C3.20349 0.293774 3.42878 0.453704 3.61673 0.652602L21.3251 19.4026C21.6908 19.7894 21.8945 20.3015 21.8945 20.8339C21.8945 21.3662 21.6908 21.8783 21.3251 22.2651L3.61673 41.0172C3.43002 41.2204 3.20478 41.3846 2.9541 41.5C2.70342 41.6155 2.43229 41.68 2.15647 41.6898C1.88065 41.6996 1.60563 41.6545 1.34739 41.5571C1.08914 41.4597 0.852823 41.312 0.652157 41.1225C0.451488 40.933 0.29047 40.7056 0.178457 40.4533C0.0664444 40.2011 0.00566864 39.9291 -0.000339508 39.6531C-0.00634956 39.3772 0.0425262 39.1028 0.143452 38.846C0.244375 38.5891 0.395338 38.3548 0.587566 38.1568L16.9459 20.8339L0.587566 3.5151Z" fill="black"/>
@@ -149,9 +149,9 @@
 
           <div class="reviews576">
             <div id="carouselExampleControlsTrueTouching" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
-              <div class="carousel-inner">
+              <div class="carousel-inner reviwes-inner">
                 <div class="carousel-item active">
-                  <div class="cards-wrapper">
+                  <div class="card-wrapper">
                     <div class="reviews_card">
                       <div class="card-text">
                         Быстрее начал считать и думать. 
@@ -162,7 +162,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="cards-wrapper">
+                  <div class="card-wrapper">
                     <div class="card reviews_card">
                       <div class="card-text">
                       Появился интерес к математике, научилась складывать и отнимать числа, научилась считать даты.
@@ -172,7 +172,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="cards-wrapper">
+                  <div class="card-wrapper">
                     <div class="card reviews_card">
                       <div class="card-text">
                           Стал более усидчивым, в школе самый первый решает примеры и задачи. 
@@ -206,9 +206,9 @@
           <div class="reviews_title">Отзыв учителей</div>
           <div class="reviews1920">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
+              <div class="carousel-inner reviews-inner">
                 <div class="carousel-item active">
-                  <div class="cards-wrapper">
+                  <div class="card-wrapper">
                     <div class="reviews_card">
                       <div class="card-text">
                         Формат обучения, компетенция специалистов, подача информации.
@@ -231,7 +231,7 @@
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="cards-wrapper">
+                  <div class="card-wrapper">
                     <div class="card reviews_card">
                       <div class="card-text">
                       Интересная программа. Обучение проходило в очень доброй и положительно заряженной атмосфере. Очень познавательно. 
@@ -272,9 +272,9 @@
 
             <div class="reviews576">
               <div id="carouselExampleTrueTouching" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
-                <div class="carousel-inner">
+                <div class="carousel-inner reviews-inner">
                   <div class="carousel-item active">
-                    <div class="cards-wrapper">
+                    <div class="card-wrapper">
                       <div class="reviews_card">
                         <div class="card-text">
                           Формат обучения, компетенция специалистов, подача информации.
@@ -286,7 +286,7 @@
                   </div>
 
                   <div class="carousel-item">
-                    <div class="cards-wrapper">
+                    <div class="card-wrapper">
                       <div class="card reviews_card">
                         <div class="card-text">
                         Интересная программа. Обучение проходило в очень доброй и положительно заряженной атмосфере. Очень познавательно. 
@@ -296,7 +296,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <div class="cards-wrapper">
+                    <div class="card-wrapper">
                       <div class="card reviews_card">
                         <div class="card-text">
                         Формат обучения, компетенция специалистов, подача информации
@@ -307,7 +307,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <div class="cards-wrapper">
+                    <div class="card-wrapper">
                       <div class="card reviews_card">
                         <div class="card-text">
                           Узнать особенности работы с детьми
@@ -334,6 +334,103 @@
             </div>
         </div>
       </section>
+
+      <section class="videoblog">
+        <div class="container">
+          <div class="videoblog__title">Видеотзывы</div>
+          <div class="videoblog1920">
+          <div class="carousel slide" id="carouselVideoblog1920" data-bs-ride="carousel" data-bs-touch="true">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-wrapper">
+                    <div class="videoblog_card">
+                      <video class="video_1920" controls type="video/mp4" controlslist="nodownload"> 
+                      Ваш браузер не поддерживает тег <code>video</code>.
+                        <source src="./assets/video/отзыв_1.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                      <div class="videoblog_card">
+                        <video class="video_1920" controls type="video/mp4" controlslist="nodownload">
+                          <source src="./assets/video/отзыв_2.mp4" type="video/mp4">
+                        </video>
+                      </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-wrapper">
+                    <div class="videoblog_card" type="video/mp4">
+                        <video class="video_1920" controls type="video/mp4" controlslist="nodownload">
+                          <source src="./assets/video/отзыв_3.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoblog1920"
+                data-bs-slide="prev" data-bs-touch="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="39" viewBox="0 0 22 39" fill="none">
+                    <path d="M21.307 3.23389C21.4949 3.05091 21.6419 2.83565 21.7394 2.60042C21.8369 2.36519 21.8831 2.11459 21.8754 1.86293C21.8677 1.61127 21.8061 1.36347 21.6943 1.13369C21.5825 0.903912 21.4225 0.696645 21.2236 0.523727C21.0247 0.350809 20.7908 0.215626 20.5351 0.125897C20.2794 0.0361669 20.007 -0.00635249 19.7335 0.00076667C19.4599 0.00788583 19.1906 0.0645038 18.9408 0.167388C18.691 0.270272 18.4657 0.417408 18.2778 0.600394L0.569464 17.8504C0.203763 18.2063 0 18.6774 0 19.1671C0 19.6569 0.203763 20.128 0.569464 20.4839L18.2778 37.7358C18.4645 37.9228 18.6897 38.0738 18.9404 38.18C19.1911 38.2863 19.4622 38.3456 19.7381 38.3546C20.0139 38.3636 20.2889 38.3221 20.5471 38.2325C20.8054 38.1429 21.0417 38.007 21.2424 37.8327C21.443 37.6584 21.6041 37.4491 21.7161 37.217C21.8281 36.985 21.8889 36.7347 21.8949 36.4809C21.9009 36.227 21.852 35.9746 21.7511 35.7383C21.6502 35.5019 21.4992 35.2864 21.307 35.1042L4.94863 19.1671L21.307 3.23389Z" fill="black"/>
+                  </svg>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoblog1920"
+                data-bs-slide="next" data-bs-touch="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="42" viewBox="0 0 22 42" fill="none">
+                    <path d="M0.587566 3.5151C0.399611 3.3162 0.252674 3.08223 0.155142 2.82655C0.0576096 2.57086 0.0113926 2.29847 0.0191307 2.02493C0.0268688 1.75138 0.0884094 1.48204 0.200241 1.23228C0.312071 0.982513 0.472002 0.757223 0.6709 0.569269C0.869797 0.381315 1.10377 0.234376 1.35946 0.136844C1.61514 0.0393119 1.88753 -0.00690488 2.16108 0.000833337C2.43462 0.00857156 2.70396 0.0701128 2.95373 0.181944C3.20349 0.293774 3.42878 0.453704 3.61673 0.652602L21.3251 19.4026C21.6908 19.7894 21.8945 20.3015 21.8945 20.8339C21.8945 21.3662 21.6908 21.8783 21.3251 22.2651L3.61673 41.0172C3.43002 41.2204 3.20478 41.3846 2.9541 41.5C2.70342 41.6155 2.43229 41.68 2.15647 41.6898C1.88065 41.6996 1.60563 41.6545 1.34739 41.5571C1.08914 41.4597 0.852823 41.312 0.652157 41.1225C0.451488 40.933 0.29047 40.7056 0.178457 40.4533C0.0664444 40.2011 0.00566864 39.9291 -0.000339508 39.6531C-0.00634956 39.3772 0.0425262 39.1028 0.143452 38.846C0.244375 38.5891 0.395338 38.3548 0.587566 38.1568L16.9459 20.8339L0.587566 3.5151Z" fill="black"/>
+                  </svg>
+              </button>
+            </div>
+          </div>
+          <div class="videoblog576">
+            <div class="carousel slide" id="carouselVideoblog576" data-bs-ride="carousel" data-bs-touch="true">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-wrapper">
+                    <div class="videoblog_card">
+                      <video class="video_576" controls  type="video/mp4" controlslist="nodownload">
+                        <source src="./assets/video/отзыв_1.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-wrapper">
+                    <div class="videoblog_card">
+                      <video class="video_576" controls type="video/mp4" controlslist="nodownload">
+                        <source src="./assets/video/отзыв_2.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-wrapper">
+                    <div class="videoblog_card">
+                      <video class="video_576" controls type="video/mp4" controlslist="nodownload">
+                        <source src="./assets/video/отзыв_3.mp4" type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoblog576"
+                data-bs-slide="prev" data-bs-touch="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="39" viewBox="0 0 22 39" fill="none">
+                    <path d="M21.307 3.23389C21.4949 3.05091 21.6419 2.83565 21.7394 2.60042C21.8369 2.36519 21.8831 2.11459 21.8754 1.86293C21.8677 1.61127 21.8061 1.36347 21.6943 1.13369C21.5825 0.903912 21.4225 0.696645 21.2236 0.523727C21.0247 0.350809 20.7908 0.215626 20.5351 0.125897C20.2794 0.0361669 20.007 -0.00635249 19.7335 0.00076667C19.4599 0.00788583 19.1906 0.0645038 18.9408 0.167388C18.691 0.270272 18.4657 0.417408 18.2778 0.600394L0.569464 17.8504C0.203763 18.2063 0 18.6774 0 19.1671C0 19.6569 0.203763 20.128 0.569464 20.4839L18.2778 37.7358C18.4645 37.9228 18.6897 38.0738 18.9404 38.18C19.1911 38.2863 19.4622 38.3456 19.7381 38.3546C20.0139 38.3636 20.2889 38.3221 20.5471 38.2325C20.8054 38.1429 21.0417 38.007 21.2424 37.8327C21.443 37.6584 21.6041 37.4491 21.7161 37.217C21.8281 36.985 21.8889 36.7347 21.8949 36.4809C21.9009 36.227 21.852 35.9746 21.7511 35.7383C21.6502 35.5019 21.4992 35.2864 21.307 35.1042L4.94863 19.1671L21.307 3.23389Z" fill="black"/>
+                  </svg>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoblog576"
+                data-bs-slide="next" data-bs-touch="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="42" viewBox="0 0 22 42" fill="none">
+                    <path d="M0.587566 3.5151C0.399611 3.3162 0.252674 3.08223 0.155142 2.82655C0.0576096 2.57086 0.0113926 2.29847 0.0191307 2.02493C0.0268688 1.75138 0.0884094 1.48204 0.200241 1.23228C0.312071 0.982513 0.472002 0.757223 0.6709 0.569269C0.869797 0.381315 1.10377 0.234376 1.35946 0.136844C1.61514 0.0393119 1.88753 -0.00690488 2.16108 0.000833337C2.43462 0.00857156 2.70396 0.0701128 2.95373 0.181944C3.20349 0.293774 3.42878 0.453704 3.61673 0.652602L21.3251 19.4026C21.6908 19.7894 21.8945 20.3015 21.8945 20.8339C21.8945 21.3662 21.6908 21.8783 21.3251 22.2651L3.61673 41.0172C3.43002 41.2204 3.20478 41.3846 2.9541 41.5C2.70342 41.6155 2.43229 41.68 2.15647 41.6898C1.88065 41.6996 1.60563 41.6545 1.34739 41.5571C1.08914 41.4597 0.852823 41.312 0.652157 41.1225C0.451488 40.933 0.29047 40.7056 0.178457 40.4533C0.0664444 40.2011 0.00566864 39.9291 -0.000339508 39.6531C-0.00634956 39.3772 0.0425262 39.1028 0.143452 38.846C0.244375 38.5891 0.395338 38.3548 0.587566 38.1568L16.9459 20.8339L0.587566 3.5151Z" fill="black"/>
+                  </svg>
+              </button>
+            </div>
+          </div>
+          <div class="videoblog__button-div">
+          <button type="submit" value="" class="videoblog__button">Приобрести устройство</button>
+          </div>
+        </div>
+      </section>
+
 </main>
 <footer class="footer" id="footer">
 <?php require_once('footer.php') ?>
