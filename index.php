@@ -76,8 +76,7 @@
       <section class="develop" id="develop">
       <div class="develop_block">
           <div class="develop_title">
-            <h2>Развивает</h2>
-            <img src="assets/pic/develop/brain2.png" alt="здесь изображен мозг">
+            <h2>Развивает <img src="assets/pic/develop/brain2.png" alt="здесь изображен мозг"></h2>
           </div>
           <div class="container-fluid">
             <div class="develop_card row justify-content-center">

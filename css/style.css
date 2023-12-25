@@ -595,7 +595,6 @@ h2 {
     height: 50px;
   }
 }
-
 .reviews_card {
   width: 353px;
   height: 333px;
@@ -604,7 +603,6 @@ h2 {
   border: none;
   padding: 15px;
 }
-
 .reviews_title {
   font-family: "Optima Cyr Bold", serif;
   text-align: center;
@@ -984,4 +982,4 @@ form {
   #footer__link_block {
     order: 4;
   }
-}
+}/*# sourceMappingURL=style.css.map */
