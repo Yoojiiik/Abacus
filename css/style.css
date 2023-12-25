@@ -22,8 +22,24 @@
   font-weight: normal;
   font-style: normal;
 }
-.reviews__parents, .reviews__teachers {
+.about-the-device, .reviews__parents, .reviews__teachers, .videoblog {
   border-bottom: 1px solid #808080;
+}
+
+.videoblog__button {
+  width: 436px;
+  height: 87px;
+  border-radius: 50px;
+  background-color: #FFC700;
+  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-family: "Roboto Bold", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.48px;
+}
+.videoblog__button:hover {
+  background-color: #ffb800;
 }
 
 h1,
@@ -473,6 +489,35 @@ h2 {
     font-size: 1.09rem;
   }
 }
+.about-the-device__title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.about-the-device__title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+}
+.about-the-device__video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 586px) {
+  .about-the-device__video {
+    display: flex;
+    justify-content: center;
+  }
+  .about-the-device__video video {
+    width: 300px;
+  }
+}
 .task {
   margin: 0 auto;
   border-bottom: 1px solid gray;
@@ -550,6 +595,16 @@ h2 {
     height: 50px;
   }
 }
+
+.reviews_card {
+  width: 353px;
+  height: 333px;
+  border-radius: 22px;
+  background-color: rgba(8, 79, 62, 0.1);
+  border: none;
+  padding: 15px;
+}
+
 .reviews_title {
   font-family: "Optima Cyr Bold", serif;
   text-align: center;
@@ -561,33 +616,27 @@ h2 {
   color: #000000;
 }
 
-.reviews_card {
-  width: 353px;
-  height: 333px;
-  border-radius: 22px;
-  background-color: rgba(8, 79, 62, 0.1);
-  border: none;
-  padding: 15px;
-}
-
 .card-text {
   font-family: "Roboto Bold", sans-serif;
   font-size: 1.0625rem;
   text-align: center;
 }
 
-.cards-wrapper {
+.card-wrapper {
   display: flex;
   justify-content: space-around;
+}
+
+.carousel-inner {
   padding: 90px 0;
 }
 
 .carousel-control-prev {
-  padding-right: 156px;
+  width: 50px;
 }
 
 .carousel-control-next {
-  padding-left: 156px;
+  width: 50px;
 }
 
 @media screen and (min-width: 1191px) and (max-width: 1920px) {
@@ -598,18 +647,96 @@ h2 {
     display: block;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 1190px) {
+@media screen and (min-width: 310px) and (max-width: 1190px) {
+  .reviews_title {
+    font-size: 2.5rem;
+    line-height: 30px;
+  }
+  .reviews_card {
+    width: 353px;
+    height: 380px;
+    padding: 10px;
+  }
   .reviews1920 {
     display: none;
   }
   .reviews576 {
     display: block;
   }
-  .carousel-control-next {
-    padding: 0;
+  .carousel-inner {
+    padding: 90px 25px;
   }
-  .carousel-control-prev {
+  .carousel-control-next svg {
     padding: 0;
+    margin-left: 37px;
+  }
+  .carousel-control-prev svg {
+    padding: 0;
+    margin-right: 37px;
+  }
+}
+.videoblog__title {
+  font-family: "Optima Cyr Bold", serif;
+  text-align: center;
+  font-size: 3.125rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 110px;
+  color: #000000;
+}
+.videoblog__link {
+  text-decoration: none;
+  color: #000000;
+  width: 436px;
+  height: 87px;
+}
+.videoblog__link:hover {
+  color: #000000;
+}
+
+.video_1920 {
+  width: 544px;
+  height: 370px;
+}
+.video_576 {
+  width: 488px;
+}
+
+.videoblog__button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 62px 0 71px 0;
+}
+
+@media screen and (min-width: 1191px) and (max-width: 1920px) {
+  .videoblog1920 {
+    display: block;
+  }
+  .videoblog576 {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1190px) {
+  .videoblog1920 {
+    display: none;
+  }
+  .videoblog576 {
+    display: block;
+  }
+  .videoblog__button {
+    width: 320px;
+    margin-top: -90px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .video_576 {
+    width: 300px;
+    height: 200px;
+  }
+  .videoblog__button {
+    width: 320px;
+    margin-top: -100px;
   }
 }
 form {
@@ -814,6 +941,11 @@ form {
 }
 
 @media screen and (max-width: 767px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .footer__contacts {
     margin: 82px 0 40px 0;
   }
@@ -828,6 +960,9 @@ form {
   }
 }
 @media screen and (max-width: 575px) {
+  .footer {
+    text-align: center;
+  }
   .footer_title {
     font-size: 1.4375rem;
   }
