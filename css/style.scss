@@ -184,10 +184,10 @@ h2 {
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 150px;
+    width: 200px;
     margin: 0;
-    padding-left: 15%;
-    background-color: #02bf91;
+    padding-left: 10%;
+    background-color: white;
   }
   .menu__box a {
     color: black;
@@ -244,7 +244,6 @@ h2 {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-content: space-between;
-  
 }
 .title_banner-text {
   font-family: "Optima Cyr Bold", serif;
@@ -261,8 +260,6 @@ h2 {
   margin-top: 70px;
   justify-content: flex-end;
   padding-right: 100px;
-  
-  
 }
 .submit_banner {
   font-family: "Roboto Regular", sans-serif;
@@ -279,8 +276,7 @@ h2 {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   background-color: #ffffff69;
   margin-right: 50px;
-  }
-  
+}
 
 // -----------------------------------FOR_WHO------------------------------------- //
 .for_who {
@@ -330,11 +326,9 @@ h2 {
   margin: 10px;
 }
 
-
 .button {
   margin: 0 auto;
 }
-
 
 // -----------------------------------DEVELOP------------------------------------- //
 .develop {
@@ -349,7 +343,7 @@ h2 {
   justify-content: center;
   h2 {
     flex-wrap: wrap;
-    display: flex; 
+    display: flex;
     align-content: center;
     font-family: "Optima Cyr Bold", serif;
     font-weight: 600;
@@ -358,8 +352,8 @@ h2 {
 }
 
 .develop_block .container-fluid {
-padding: 0 80px;
-margin-bottom: 50px;
+  padding: 0 80px;
+  margin-bottom: 50px;
 }
 
 .develop_card {
@@ -382,8 +376,6 @@ margin-bottom: 50px;
   }
 }
 
-
-
 // -----------------------------------HISTORY------------------------------------- //
 // ----------------------------------DEVICE_CHOOSE-------------------------------- //
 .device_choose {
@@ -405,7 +397,7 @@ margin-bottom: 50px;
   justify-content: center;
   h2 {
     flex-wrap: wrap;
-    display: flex; 
+    display: flex;
     align-content: center;
     font-family: "Optima Cyr Bold", serif;
     font-weight: 600;
@@ -429,13 +421,12 @@ margin-bottom: 50px;
   }
 }
 
-
 .device_choose_pic {
   display: flex;
   justify-content: center;
   img {
     height: 290px;
-    display: flex
+    display: flex;
   }
 }
 .device_choose_button {
@@ -445,7 +436,7 @@ margin-bottom: 50px;
     font-size: 1.2rem;
     padding: 20px 60px;
     border-radius: 30px;
-    background-color: #FFD700;
+    background-color: #ffd700;
     box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
   }
 }
@@ -478,7 +469,7 @@ margin-bottom: 50px;
   justify-content: center;
   h2 {
     flex-wrap: wrap;
-    display: flex; 
+    display: flex;
     align-content: center;
     font-family: "Optima Cyr Bold", serif;
     font-weight: 600;
@@ -510,7 +501,6 @@ margin-bottom: 50px;
   }
 }
 
-
 .task_pic {
   display: flex;
   justify-content: center;
@@ -538,7 +528,6 @@ margin-bottom: 50px;
     }
   }
 }
-
 
 // -----------------------WHAT_IS_THE_USE_OF_THE_DEVICE--------------------------- //
 // --------------------------------RECOMINDATION---------------------------------- //
@@ -618,14 +607,16 @@ form {
 .form-two {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  width: 100%;
+
+  margin: 0 auto;
 }
 .form-two-inside {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   max-width: 928px;
-  column-gap: 120px;
+  column-gap: 100px;
   margin: 0 auto;
   width: 100%;
   padding-top: 30px;
@@ -714,6 +705,19 @@ form {
 .press_button {
   max-width: 570px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1190px) {
+  .form-two-inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 404px;
+    column-gap: 100px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 30px;
+  }
 }
 
 // -----------------------------------POLITIKA------------------------------------ //
