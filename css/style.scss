@@ -448,7 +448,41 @@ h2 {
     }
   }
 }
+// -------------------------------------ABOUT-THE-DEVICE-------------------------------------- //
+.about-the-device {
+  @extend %stripe;
 
+  &__title {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    h2 {
+      flex-wrap: wrap;
+      display: flex;
+      align-content: center;
+      font-family: "Optima Cyr Bold", serif;
+      font-weight: 600;
+      font-size: 3.125rem;
+    }
+  }
+  &__video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 586px) {
+  .about-the-device {
+    &__video {
+      display: flex;
+      justify-content: center;
+    }
+    &__video video {
+      width: 300px;
+    }
+  }
+}
 // -------------------------------------TASK-------------------------------------- //
 .task {
   margin: 0 auto;
@@ -540,16 +574,6 @@ h2 {
   @extend %stripe;
 }
 
-.reviews_title {
-  font-family: "Optima Cyr Bold", serif;
-  text-align: center;
-  font-size: 3.125rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
-  margin-top: 110px;
-  color: $black;
-}
 .reviews {
   &_card {
     width: 353px;
@@ -559,6 +583,16 @@ h2 {
     border: none;
     padding: 15px;
   }
+  &_title {
+    font-family: "Optima Cyr Bold", serif;
+    text-align: center;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    margin-top: 110px;
+    color: $black;
+  }
 }
 .card-text {
   font-family: "Roboto Bold", sans-serif;
@@ -566,17 +600,18 @@ h2 {
   text-align: center;
 }
 
-.cards-wrapper {
+.card-wrapper {
   display: flex;
   justify-content: space-around;
+}
+.carousel-inner {
   padding: 90px 0;
 }
-
 .carousel-control-prev {
-  padding-right: 156px;
+  width: 50px;
 }
 .carousel-control-next {
-  padding-left: 156px;
+  width: 50px;
 }
 @media screen and (min-width: 1191px) and (max-width: 1920px) {
   .reviews576 {
@@ -586,18 +621,109 @@ h2 {
     display: block;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 1190px) {
+@media screen and (min-width: 310px) and (max-width: 1190px) {
+  .reviews {
+    &_title {
+      font-size: 2.5rem;
+      line-height: 30px;
+    }
+    &_card {
+      width: 353px;
+      height: 380px;
+      padding: 10px;
+    }
+  }
   .reviews1920 {
     display: none;
   }
   .reviews576 {
     display: block;
   }
-  .carousel-control-next {
-    padding: 0;
+  .carousel-inner {
+    padding: 90px 25px;
   }
-  .carousel-control-prev {
+
+  .carousel-control-next svg {
     padding: 0;
+    margin-left: 37px;
+  }
+  .carousel-control-prev svg {
+    padding: 0;
+    margin-right: 37px;
+  }
+}
+// ---------------------------------VIDEOBLOG------------------------------------- //
+.videoblog {
+  @extend %stripe;
+  &__title {
+    font-family: "Optima Cyr Bold", serif;
+    text-align: center;
+    font-size: 3.125rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 110px;
+    color: $black;
+  }
+  &__button {
+    @extend %button_yellow;
+  }
+  &__link {
+    text-decoration: none;
+    color: $black;
+    width: 436px;
+    height: 87px;
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+.video {
+  &_1920 {
+    width: 544px;
+    height: 370px;
+  }
+  &_576 {
+    width: 488px;
+  }
+}
+.videoblog__button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 62px 0 71px 0;
+}
+
+@media screen and (min-width: 1191px) and (max-width: 1920px) {
+  .videoblog1920 {
+    display: block;
+  }
+  .videoblog576 {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 1190px) {
+  .videoblog1920 {
+    display: none;
+  }
+  .videoblog576 {
+    display: block;
+  }
+  .videoblog__button {
+    width: 320px;
+    margin-top: -90px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .video {
+    &_576 {
+      width: 300px;
+      height: 200px;
+    }
+  }
+  .videoblog__button {
+    width: 320px;
+    margin-top: -100px;
   }
 }
 // -------------------------------------FORM-------------------------------------- //
@@ -787,6 +913,9 @@ form {
 
 @media screen and (max-width: 767px) {
   .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     &__contacts {
       margin: 82px 0 40px 0;
     }
@@ -803,6 +932,7 @@ form {
 }
 @media screen and (max-width: 575px) {
   .footer {
+    text-align: center;
     &_title {
       font-size: 1.4375rem;
     }

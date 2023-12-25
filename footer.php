@@ -26,10 +26,10 @@
                     <ul>
                         <li><a href="#for_who">Для кого</a></li>
                         <li><a href="">О нас</a></li>
-                        <li><a href="">Задачи устройства</a></li>
+                        <li><a href="#task">Задачи устройства</a></li>
                         <li><a href="">Видео</a></li>
                         <li><a href="#reviews">Отзывы</a></li>
-                        <li><a href="">Контакты</a></li>
+                        <li><a href="#form">Контакты</a></li>
                     </ul>
                 </div>  
             </div>
@@ -40,17 +40,17 @@
                     Контакты:
                 </div>
                 <div class="footer_text">
-                    <p><a href="mailto:shop.abacuskids@yandex.ru" class="footer__contacts_email">shop.abacuskids@yandex.ru</a></p>
-                    <p>Ph.: <a href="tel:+79603725885" class="footer__contacts_number">+7 (960) 372 58-85</a></p>
-                    <p>Ph.: <a href="tel:+79603725990" class="footer__contacts_number">+7 (960) 372 59-90</a></p>
-                    <p>Ph.: <a href="tel:+79603767545" class="footer__contacts_number">+7 (960) 376 75-45</a></p>
+                    <p><a href="mailto:shop.abacuskids@yandex.ru" class="footer__contacts_email" target="_blank">shop.abacuskids@yandex.ru</a></p>
+                    <p>Ph.: <a href="tel:+79603725885" class="footer__contacts_number" target="_blank">+7 (960) 372 58-85</a></p>
+                    <p>Ph.: <a href="tel:+79603725990" class="footer__contacts_number" target="_blank">+7 (960) 372 59-90</a></p>
+                    <p>Ph.: <a href="tel:+79603767545" class="footer__contacts_number" target="_blank">+7 (960) 376 75-45</a></p>
                 </div>
                 <div class="footer__icon">
                 <picture class="footer__icon_1">
                     <a href="https://vk.com/abacusulsk" target="_blank" class="footer__icon-link">
                         <img class="icon" src="./assets/icon/footer/vk.svg" alt="AbacusKids. VK-icon">
                     </a>
-                    <a href="#" target="_blank" class="footer__icon-link">
+                    <a href="https://t.me" target="_blank" class="footer__icon-link">
                     <img class="icon" src="./assets/icon/footer/telegram.svg" alt="AbacusKids. Telegram-icon">
                     </a>
                 </picture>
