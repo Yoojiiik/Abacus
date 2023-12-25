@@ -76,8 +76,7 @@
       <section class="develop" id="develop">
       <div class="develop_block">
           <div class="develop_title">
-            <h2>Развивает</h2>
-            <img src="assets/pic/develop/brain2.png" alt="здесь изображен мозг">
+            <h2>Развивает <img src="assets/pic/develop/brain2.png" alt="здесь изображен мозг"></h2>
           </div>
           <div class="container-fluid">
             <div class="develop_card row justify-content-center">
@@ -157,7 +156,7 @@
           </div>
         </div>
       </section>
-      <section class="about-the-device">
+      <section class="about-the-device" id="about-the-device">
         <div class="container">
           <div class="about-the-device__title"><h2>Об устройстве</h2></div>
           <div class="about-the-device__video">
@@ -328,7 +327,7 @@
 
       <section class="reviews__parents" id="reviews">
         <div class="container">
-          <div class="reviews_title">Отзыв родителей</div>
+          <div class="reviews_title"><h2>Отзыв родителей</h2></div>
           <div class="reviews1920">
             <div id="carouselReviews1920" class="carousel slide" data-bs-ride="carousel" >
               <div class="carousel-inner reviews-inner">
@@ -455,7 +454,7 @@
 
       <section class="reviews__teachers">
         <div class="container">
-          <div class="reviews_title">Отзыв учителей</div>
+          <div class="reviews_title"><h2>Отзыв учителей</h2></div>
           <div class="reviews1920">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner reviews-inner">
@@ -589,7 +588,7 @@
 
       <section class="videoblog" id="videoblog">
         <div class="container">
-          <div class="videoblog__title">Видео-отзывы</div>
+          <div class="videoblog__title"><h2>Видео-отзывы</h2></div>
           <div class="videoblog1920">
           <div class="carousel slide" id="carouselVideoblog1920" data-bs-ride="carousel" data-bs-touch="true">
               <div class="carousel-inner">
