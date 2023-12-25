@@ -4,7 +4,16 @@
     <?php require_once('header.php') ?>
 </header>
    <main class="main">
-
+    <section class="banner">
+      <div class="conteiner_banner-image">
+        <div class="title_banner">
+          <h1 class="title_banner-text">Электронное звуковое устройство “AbacusKids”</h1>
+          <div class="banner-button">
+            <button class="submit_banner" type="button">Купить</button>
+            <button class="submit_banner" type="button">Подробнее</button>
+          </div>
+        </div>
+      </section>
       <section class="for_who" id="for_who">
         <div class="for_who_block">
           <div class="for_who_title">

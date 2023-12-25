@@ -184,10 +184,10 @@ h2 {
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 150px;
+    width: 200px;
     margin: 0;
-    padding-left: 15%;
-    background-color: #02bf91;
+    padding-left: 10%;
+    background-color: white;
   }
   .menu__box a {
     color: black;
@@ -229,6 +229,55 @@ h2 {
 }
 
 // ------------------------------------MAIN--------------------------------------- //
+.banner {
+  display: flex;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.conteiner_banner-image {
+  display: flex;
+  max-width: 1920px;
+  min-height: 800px;
+  background-image: url(/assets/pic/Paklin-47.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-content: space-between;
+}
+.title_banner-text {
+  font-family: "Optima Cyr Bold", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-left: 400px;
+  color: $white;
+  text-align: end;
+  padding-right: 100px;
+}
+.banner-button {
+  display: flex;
+  margin-top: 70px;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+.submit_banner {
+  font-family: "Roboto Regular", sans-serif;
+  color: $black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 55px;
+  width: 250px;
+  height: 70px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  background-color: #ffffff69;
+  margin-right: 50px;
+}
+
 // -----------------------------------FOR_WHO------------------------------------- //
 .for_who {
   display: flex;
@@ -684,14 +733,16 @@ form {
 .form-two {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
+  width: 100%;
+
+  margin: 0 auto;
 }
 .form-two-inside {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
   max-width: 928px;
-  column-gap: 120px;
+  column-gap: 100px;
   margin: 0 auto;
   width: 100%;
   padding-top: 30px;
@@ -780,6 +831,19 @@ form {
 .press_button {
   max-width: 570px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1190px) {
+  .form-two-inside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 404px;
+    column-gap: 100px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 30px;
+  }
 }
 
 // -----------------------------------POLITIKA------------------------------------ //
