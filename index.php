@@ -156,8 +156,7 @@
           </div>
         </div>
       </section>
-      
-      <section class="about-the-device">
+      <section class="about-the-device" id="about-the-device">
         <div class="container">
           <div class="about-the-device__title"><h2>Об устройстве</h2></div>
           <div class="about-the-device__video">

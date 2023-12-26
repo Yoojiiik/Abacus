@@ -658,14 +658,18 @@ h2 {
   padding: 15px;
 }
 .reviews_title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.reviews_title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
   font-family: "Optima Cyr Bold", serif;
-  text-align: center;
+  font-weight: 600;
   font-size: 3.125rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
-  margin-top: 110px;
-  color: #000000;
+  text-align: center;
 }
 
 .card-text {
@@ -680,7 +684,7 @@ h2 {
 }
 
 .carousel-inner {
-  padding: 90px 0;
+  padding: 40px 0;
 }
 
 .carousel-control-prev {
@@ -699,11 +703,7 @@ h2 {
     display: block;
   }
 }
-@media screen and (min-width: 310px) and (max-width: 1190px) {
-  .reviews_title {
-    font-size: 2.5rem;
-    line-height: 30px;
-  }
+@media screen and (min-width: 280px) and (max-width: 1190px) {
   .reviews_card {
     width: 353px;
     height: 380px;
@@ -728,13 +728,18 @@ h2 {
   }
 }
 .videoblog__title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.videoblog__title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
   font-family: "Optima Cyr Bold", serif;
-  text-align: center;
+  font-weight: 600;
   font-size: 3.125rem;
-  font-style: normal;
-  font-weight: 700;
-  margin-top: 110px;
-  color: #000000;
+  text-align: center;
 }
 .videoblog__link {
   text-decoration: none;
@@ -992,7 +997,7 @@ form {
   transform: scale(1.2);
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .footer {
     display: flex;
     justify-content: center;
