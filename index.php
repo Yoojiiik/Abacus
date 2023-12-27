@@ -14,16 +14,14 @@
           </div>
         </div>
       </section>
-
-
       <section class="for_who" id="for_who">
         <div class="for_who_block">
           <div class="for_who_title">
             <h2 id="for_who">Для кого?</h2>
           </div>
           <div class="container-fluid">
-            <div class="for_who_card row">
-              <div class="card col-md-4 col-lg-4 col-xl-2">
+            <div class="for_who_card row row-cols-1 row-cols-md-6 g-4">
+              <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
                   <p class="card-text">нормотипичные дети от 3-х лет</p>
                 </div>  
@@ -32,28 +30,28 @@
                 </div>        
               </div>
 
-              <div class="card col-md-4 col-lg-4 col-xl-2">
+              <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
                   <p class="card-text">дети от 5 лет с нарушением зрения</p>
                 </div>
                 <img src="assets/pic/for_who/eye.png" class="card-img-bottom" alt="здесь изображен глаз">
               </div>
 
-              <div class="card col-md-4 col-lg-4 col-xl-2">
+              <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
                   <p class="card-text">дети от 5 лет с нарушением слуха</p>
                 </div>
                 <img src="assets/pic/for_who/ear.png" class="card-img-bottom" alt="здесь изображено ухо">
               </div>
 
-              <div class="card col-md-4 col-lg-4 col-xl-2">
+              <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
                   <p class="card-text">дети 7 лет с ДЦП с сохранным интеллектом</p>
                 </div>
                 <img src="assets/pic/for_who/brain.png" class="card-img-bottom" alt="здесь изображен головной мозг">
               </div>
 
-              <div class="card col-md-4 col-lg-4 col-xl-2">
+              <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
                   <p class="card-text">взрослые с когнитивными нарушениями, перенесшие инсульт,
                       с частичной потерей памяти</p>
@@ -61,7 +59,7 @@
                 <img src="assets/pic/for_who/person.png" class="card-img-bottom" alt="здесь изображена голова человека с мозгом">
               </div>
 
-              <div class="card col-md-4 col-lg-4 col-xl-2">
+              <div class="card col-md-4 col-lg-2">
                 <div class="card-body">
                   <p class="card-text">дети от 5 лет с РАС</p>
                 </div>
@@ -71,6 +69,7 @@
             </div>
           </div>
         </div>
+
       </section>
 
 
@@ -81,7 +80,7 @@
           </div>
           <div class="container-fluid">
             <div class="develop_card row justify-content-center">
-              <div class="col-12 col-md-6 col-lg-4 xl-3">
+              <div class="col-md-4 col-lg-3">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">ВНИМАНИЕ</h5>
@@ -93,7 +92,7 @@
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4 xl-3">
+              <div class="col-md-4 col-lg-3">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">ЛОГИКУ</h5>
@@ -103,7 +102,7 @@
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4 xl-3">
+              <div class="col-md-4 col-lg-3">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">ПАМЯТЬ</h5>
@@ -113,7 +112,7 @@
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4 xl-3">
+              <div class="col-md-4 col-lg-3">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">ОСЯЗАНИЕ</h5>
@@ -123,7 +122,7 @@
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4 xl-3">
+              <div class="col-md-4 col-lg-3">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">МОТОРИКУ</h5>
@@ -133,7 +132,7 @@
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4 xl-3">
+              <div class="col-md-4 col-lg-3">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">МЫШЛЕНИЕ</h5>
@@ -143,7 +142,7 @@
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4 xl-3">
+              <div class="col-md-4 col-lg-3">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">СЛУХОВОЕ ВОСПРИЯТИЕ</h5>
@@ -152,6 +151,7 @@
                   <img src="assets/pic/develop/ear1.png" class="card-img-bottom" alt="здесь изображено ухо">
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -163,32 +163,6 @@
             <video controls type="video/mp4" controlslist="nodownload" width="522px" height="300px">
               <source src="./assets/video/устройство.mp4" type="video/mp4">
             </video>
-          </div>
-        </div>
-      </section>
-
-
-      <section class="about_us" id="about_us">
-        <div class="about_us_block">
-          <div class="about_us_title">
-            <h2>О нас</h2>
-          </div>
-          <div class="container-fluid">
-            <div class="about_us_card">
-              <div class="row  justify-content-sm-start justify-content-md-start justify-content-lg-center">
-                <div class="about_us_text col-lg-5 col-md-7 col-sm-12">
-                  <p>
-                    Мы помогаем интеллектуальному развитию детей с ограниченными возможностями здоровья, сохраняя атмосферу детства.
-                  </p>
-                  <p>
-                    Мы стремимся быть лучшими. Создавая образовательную методику, инновационное устройство и методические материалы будущего, используя технологии и опыт лучших профессионалов в мире ментального счета.
-                  </p>
-                </div>
-                <div class="about_us_pic col-lg-4 col-md-4 d-sm-none d-lg-block d-md-block d-none">
-                  <img src="assets/pic/about_us/about_us.jpg" alt="Здесь изображены две женщины. В руках у женщины, находящейся слева, инновационное электронное устройство AbacusKids">
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -338,7 +312,7 @@
                   </div>
                 </div>
               </div>
-              <div class="task_pic col-5 col-xl-5 d-sm-none d-md-none d-lg-none d-xl-block d-none">
+              <div class="task_pic col-5 d-sm-none d-md-none d-lg-none d-xl-block d-none">
                 <img src="assets/pic/task/task.png" alt="здесь изображен лист, прикрепленный булавкой">
               </div>
             </div>
@@ -347,10 +321,13 @@
       </section>
 
 
+      <section class="mission">
+      <div class="container"></div>
+      </section>
 
       <section class="reviews__parents" id="reviews">
         <div class="container">
-          <div class="reviews_title">Отзывы родителей</div>
+          <div class="reviews_title"><h2>Отзыв родителей</h2></div>
           <div class="reviews1920">
             <div id="carouselReviews1920" class="carousel slide" data-bs-ride="carousel" >
               <div class="carousel-inner reviews-inner">
@@ -477,7 +454,7 @@
 
       <section class="reviews__teachers">
         <div class="container">
-          <div class="reviews_title">Отзывы учителей</div>
+          <div class="reviews_title"><h2>Отзыв учителей</h2></div>
           <div class="reviews1920">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner reviews-inner">
@@ -611,7 +588,7 @@
 
       <section class="videoblog" id="videoblog">
         <div class="container">
-          <div class="videoblog__title">Видеоотзывы</div>
+          <div class="videoblog__title"><h2>Видео-отзывы</h2></div>
           <div class="videoblog1920">
           <div class="carousel slide" id="carouselVideoblog1920" data-bs-ride="carousel" data-bs-touch="true">
               <div class="carousel-inner">
@@ -735,9 +712,9 @@
 
       <div class="checkbox_button">
           <div class="chekcbox">
-            <div class="radio">
-              <input type="radio" name="field" id="mc1">
-                <label for="mc1">Юр.лицо</label>
+                <div>
+              <input type="radio" name="field" id="mc2">
+                <label for="mc2">Юр.лицо</label>
                 </div>
                 <div>
               <input type="radio" name="field" id="mc2">
@@ -745,7 +722,7 @@
                 </div>
           </div>
           <div class="text_down">
-            <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a href="./polzovatelskoe-soglashenie.php">с политикой конфеденциальности</a> и <a href="./publichnaya-oferta.php">договором публичной оферты.</a></p>
+            <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a href="./polzovatelskoe-soglashenie.php" class="pub">с политикой конфеденциальности</a> и <a href="./publichnaya-oferta.php" class="pub">договором публичной оферты.</a></p>
           </div>
           <div class="button_for_form">
             <button class="button" type="submit">Отправить заявку!</button>
