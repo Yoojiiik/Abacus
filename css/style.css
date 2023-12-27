@@ -425,7 +425,47 @@ h2 {
   font-weight: 600;
 }
 
+.about_us {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+}
+.about_us_title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.about_us_title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+}
+.about_us .container-fluid {
+  display: flex;
+  padding: 30px;
+}
+.about_us .container-fluid .row {
+  align-items: center;
+}
+.about_us .container-fluid .row .about_us_pic {
+  display: flex;
+}
+.about_us .container-fluid .row .about_us_pic img {
+  height: 400px;
+}
+.about_us .container-fluid .row .about_us_text {
+  font-size: 1.5rem;
+  font-family: "Roboto bold", sans-serif;
+}
+
 .device_choose {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   border-bottom: 1px solid gray;
 }
@@ -443,6 +483,7 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
+  text-align: center;
 }
 .device_choose_title h2 {
   flex-wrap: wrap;
@@ -484,11 +525,13 @@ h2 {
   justify-content: center;
 }
 .device_choose_button .button {
-  font-size: 1.2rem;
+  font-size: medium;
   padding: 20px 60px;
   border-radius: 50px;
-  background-color: #ffc700;
+  background: #ffc700;
   box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
+  height: 60px;
+  width: auto;
 }
 
 @media (min-width: 360px) and (max-width: 570px) {
@@ -526,6 +569,8 @@ h2 {
   }
 }
 .task {
+  display: flex;
+  justify-content: center;
   margin: 0 auto;
   border-bottom: 1px solid gray;
 }
@@ -562,7 +607,7 @@ h2 {
   align-items: start;
 }
 .task_card .row {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .task_card p {
   justify-content: center;
@@ -583,7 +628,7 @@ h2 {
   justify-content: center;
 }
 .task_pic img {
-  height: 500px;
+  height: 550px;
   display: flex;
 }
 
