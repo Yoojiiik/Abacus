@@ -4,17 +4,32 @@
 }
 
 %button_yellow {
-  width: 436px;
-  height: 87px;
+  width: 296px;
+  height: 60px;
   border-radius: 50px;
   background-color: $yellow;
-  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
   border: none;
   font-family: "Roboto Bold", sans-serif;
-  font-size: 1.5rem;
+  font-size: medium;
   font-weight: 400;
   letter-spacing: 0.48px;
   &:hover {
     background-color: #ffb800;
+  }
+}
+
+%title-text {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  h2 {
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    font-family: "Optima Cyr Bold", serif;
+    font-weight: 600;
+    font-size: 3.125rem;
+    text-align: center;
   }
 }

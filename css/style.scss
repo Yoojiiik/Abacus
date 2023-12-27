@@ -490,6 +490,9 @@ h2 {
     box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
     height: 60px;
     width: auto;
+    &:hover {
+      background-color: #ffb800;
+    }
   }
 }
 
@@ -505,17 +508,7 @@ h2 {
   @extend %stripe;
 
   &__title {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    h2 {
-      flex-wrap: wrap;
-      display: flex;
-      align-content: center;
-      font-family: "Optima Cyr Bold", serif;
-      font-weight: 600;
-      font-size: 3.125rem;
-    }
+    @extend %title-text;
   }
   &__video {
     display: flex;
@@ -638,18 +631,7 @@ h2 {
     padding: 15px;
   }
   &_title {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    h2 {
-      flex-wrap: wrap;
-      display: flex;
-      align-content: center;
-      font-family: "Optima Cyr Bold", serif;
-      font-weight: 600;
-      font-size: 3.125rem;
-      text-align: center;
-    }
+    @extend %title-text;
   }
 }
 .card-text {
@@ -710,18 +692,7 @@ h2 {
 .videoblog {
   @extend %stripe;
   &__title {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-    h2 {
-      flex-wrap: wrap;
-      display: flex;
-      align-content: center;
-      font-family: "Optima Cyr Bold", serif;
-      font-weight: 600;
-      font-size: 3.125rem;
-      text-align: center;
-    }
+    @extend %title-text;
   }
   &__button {
     @extend %button_yellow;
@@ -750,7 +721,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 62px 0 71px 0;
+  margin: 9px 0 41px 0;
 }
 
 @media screen and (min-width: 1191px) and (max-width: 1920px) {
@@ -858,6 +829,9 @@ form {
     border-radius: 50px;
     background-color: $yellow;
     box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
+    &:hover {
+      background-color: #ffb800;
+    }
   }
 }
 

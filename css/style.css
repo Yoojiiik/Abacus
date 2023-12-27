@@ -27,19 +27,34 @@
 }
 
 .videoblog__button {
-  width: 436px;
-  height: 87px;
+  width: 296px;
+  height: 60px;
   border-radius: 50px;
   background-color: #ffc700;
-  box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
   border: none;
   font-family: "Roboto Bold", sans-serif;
-  font-size: 1.5rem;
+  font-size: medium;
   font-weight: 400;
   letter-spacing: 0.48px;
 }
 .videoblog__button:hover {
   background-color: #ffb800;
+}
+
+.about-the-device__title, .reviews_title, .videoblog__title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.about-the-device__title h2, .reviews_title h2, .videoblog__title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+  text-align: center;
 }
 
 h1,
@@ -533,24 +548,14 @@ h2 {
   height: 60px;
   width: auto;
 }
+.device_choose_button .button:hover {
+  background-color: #ffb800;
+}
 
 @media (min-width: 360px) and (max-width: 570px) {
   .device_choose_card p {
     font-size: 1.09rem;
   }
-}
-.about-the-device__title {
-  display: flex;
-  padding: 20px;
-  justify-content: center;
-}
-.about-the-device__title h2 {
-  flex-wrap: wrap;
-  display: flex;
-  align-content: center;
-  font-family: "Optima Cyr Bold", serif;
-  font-weight: 600;
-  font-size: 3.125rem;
 }
 .about-the-device__video {
   display: flex;
@@ -655,21 +660,6 @@ h2 {
   border: none;
   padding: 15px;
 }
-.reviews_title {
-  display: flex;
-  padding: 20px;
-  justify-content: center;
-}
-.reviews_title h2 {
-  flex-wrap: wrap;
-  display: flex;
-  align-content: center;
-  font-family: "Optima Cyr Bold", serif;
-  font-weight: 600;
-  font-size: 3.125rem;
-  text-align: center;
-}
-
 .card-text {
   font-family: "Roboto Bold", sans-serif;
   font-size: 1.0625rem;
@@ -725,20 +715,6 @@ h2 {
     margin-right: 37px;
   }
 }
-.videoblog__title {
-  display: flex;
-  padding: 20px;
-  justify-content: center;
-}
-.videoblog__title h2 {
-  flex-wrap: wrap;
-  display: flex;
-  align-content: center;
-  font-family: "Optima Cyr Bold", serif;
-  font-weight: 600;
-  font-size: 3.125rem;
-  text-align: center;
-}
 .videoblog__link {
   text-decoration: none;
   color: #000000;
@@ -761,7 +737,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 62px 0 71px 0;
+  margin: 9px 0 41px 0;
 }
 
 @media screen and (min-width: 1191px) and (max-width: 1920px) {
@@ -871,6 +847,9 @@ form {
   border-radius: 50px;
   background-color: #ffc700;
   box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
+}
+.checkbox_button .button:hover {
+  background-color: #ffb800;
 }
 
 .chekcbox {
