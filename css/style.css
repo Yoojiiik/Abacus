@@ -224,17 +224,24 @@ h2 {
   }
   .menu__box {
     display: block;
-    position: fixed;
+    position: absolute;
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 200px;
+    width: 220px;
     margin: 0;
-    padding-left: 10%;
+    padding-left: 15%;
     background-color: white;
+    list-style-type: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   .menu__box a {
     color: black;
+    text-decoration: none;
+  }
+  .menu__box a:hover {
+    color: #02BF91;
   }
   .centr_development {
     display: none;
@@ -371,9 +378,12 @@ h2 {
   margin: 10px;
 }
 
+.button {
+  margin: 0 auto;
+}
+
 .develop {
   display: flex;
-  justify-content: center;
   margin: 0 auto;
   border-bottom: 1px solid gray;
 }
@@ -415,47 +425,7 @@ h2 {
   font-weight: 600;
 }
 
-.about_us {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  border-bottom: 1px solid gray;
-  padding-bottom: 20px;
-}
-.about_us_title {
-  display: flex;
-  padding: 20px;
-  justify-content: center;
-}
-.about_us_title h2 {
-  flex-wrap: wrap;
-  display: flex;
-  align-content: center;
-  font-family: "Optima Cyr Bold", serif;
-  font-weight: 600;
-  font-size: 3.125rem;
-}
-.about_us .container-fluid {
-  display: flex;
-  padding: 30px;
-}
-.about_us .container-fluid .row {
-  align-items: center;
-}
-.about_us .container-fluid .row .about_us_pic {
-  display: flex;
-}
-.about_us .container-fluid .row .about_us_pic img {
-  height: 400px;
-}
-.about_us .container-fluid .row .about_us_text {
-  font-size: 1.5rem;
-  font-family: "Roboto bold", sans-serif;
-}
-
 .device_choose {
-  display: flex;
-  justify-content: center;
   margin: 0 auto;
   border-bottom: 1px solid gray;
 }
@@ -473,7 +443,6 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
-  text-align: center;
 }
 .device_choose_title h2 {
   flex-wrap: wrap;
@@ -517,27 +486,14 @@ h2 {
 .device_choose_button .button {
   font-size: 1.2rem;
   padding: 20px 60px;
-  border-radius: 50px;
-  background: #FFC700;
+  border-radius: 30px;
+  background-color: #ffd700;
   box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
 }
 
 @media (min-width: 360px) and (max-width: 570px) {
   .device_choose_card p {
     font-size: 1.09rem;
-  }
-  .device_choose_button {
-    display: flex;
-    justify-content: center;
-  }
-  .device_choose_button .button {
-    font-size: medium;
-    padding: 20px 60px;
-    border-radius: 50px;
-    background: #FFC700;
-    box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
-    height: 60px;
-    width: auto;
   }
 }
 .about-the-device__title {
@@ -570,8 +526,6 @@ h2 {
   }
 }
 .task {
-  display: flex;
-  justify-content: center;
   margin: 0 auto;
   border-bottom: 1px solid gray;
 }
@@ -589,7 +543,6 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
-  text-align: center;
 }
 .task_title h2 {
   flex-wrap: wrap;
@@ -609,7 +562,7 @@ h2 {
   align-items: start;
 }
 .task_card .row {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .task_card p {
   justify-content: center;
@@ -630,7 +583,7 @@ h2 {
   justify-content: center;
 }
 .task_pic img {
-  height: 550px;
+  height: 500px;
   display: flex;
 }
 
@@ -827,8 +780,6 @@ form {
 
 .form {
   margin: 0 auto;
-  padding-left: 50px;
-  padding-right: 50px;
   text-align: center;
   padding-top: 10px;
 }
@@ -916,6 +867,43 @@ form {
   margin: 0 auto;
 }
 
+input[type=radio]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type=radio]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #FFC700;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+.pub {
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.pub:hover {
+  color: yellow;
+}
+
 @media screen and (min-width: 320px) and (max-width: 1190px) {
   .form-two-inside {
     display: flex;
@@ -927,6 +915,13 @@ form {
     margin: 0 auto;
     width: 100%;
     padding-top: 30px;
+  }
+  .form {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 10px;
   }
 }
 .main-for-polzovatelskoe {
@@ -1041,4 +1036,4 @@ form {
   #footer__link_block {
     order: 4;
   }
-}/*# sourceMappingURL=style.css.map */
+}
