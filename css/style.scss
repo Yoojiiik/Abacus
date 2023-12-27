@@ -62,6 +62,10 @@ h2 {
     margin: 0 auto;
   }
 
+  .header-top__menu a:hover {
+    color: $yellow;
+  }
+
   .header-top__link {
     color: #ffffff;
     font-size: 11 rem;
@@ -105,17 +109,12 @@ h2 {
   }
   .header_mail {
     display: flex;
-    padding: 8%;
+    padding: 10%;
     height: 50px;
   }
   .header_phone {
     display: flex;
     padding: 6%;
-    height: 50px;
-  }
-  .oko {
-    display: flex;
-    padding: 8%;
     height: 50px;
   }
 
@@ -127,6 +126,10 @@ h2 {
 @media (min-width: 320px) and (max-width: 768px) {
   .header-top__abacus {
     display: none;
+  }
+  .hamburger-menu {
+    display: flex;
+    align-items: center;
   }
 
   #menu__toggle {
@@ -158,6 +161,7 @@ h2 {
     height: 26px;
     cursor: pointer;
     z-index: 1;
+    padding-top: 30px;
   }
 
   .menu__btn > span,
@@ -196,8 +200,9 @@ h2 {
     color: black;
     text-decoration: none;
   }
+
   .menu__box a:hover {
-    color: $akvamarine;
+    color: $yellow;
   }
   .centr_development {
     display: none;
@@ -206,17 +211,19 @@ h2 {
   .header-top-menu-part-2 {
     display: flex;
     justify-content: end;
+    padding-top: 10px;
   }
   .left-part-menu-part-2 {
     display: flex;
   }
   .abacus_logo {
-    max-width: 150px;
+    max-width: 300px;
     padding-right: 50px;
     align-items: center;
   }
   .right-part-menu-part-2 {
     display: flex;
+    align-items: center;
   }
   .header_mail {
     display: flex;
@@ -226,11 +233,6 @@ h2 {
   .header_phone {
     display: flex;
     padding: 6%;
-    height: 40px;
-  }
-  .oko {
-    display: flex;
-    padding: 8%;
     height: 40px;
   }
 }
@@ -442,8 +444,8 @@ h2 {
   .button {
     font-size: 1.2rem;
     padding: 20px 60px;
-    border-radius: 30px;
-    background-color: #ffd700;
+    border-radius: 50px;
+    background-color: $yellow;
     box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
   }
 }
@@ -765,11 +767,19 @@ form {
   padding-top: 50px;
   flex-flow: column wrap;
 }
-.form {
+.formp {
   margin: 0 auto;
+}
 
-  text-align: center;
+.tell_with_me {
   padding-top: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+  text-align: center;
 }
 .h2 {
   margin: 0 auto;
@@ -794,8 +804,18 @@ form {
 
 .checkbox_button {
   display: flex;
+  justify-content: center;
   flex-flow: column wrap;
+
+  .button {
+    font-size: 1.2rem;
+    padding: 20px 60px;
+    border-radius: 50px;
+    background-color: $yellow;
+    box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
+  }
 }
+
 .chekcbox {
   display: flex;
   justify-content: space-around;
@@ -807,9 +827,7 @@ form {
   padding-bottom: 50px;
   padding-top: 10px;
 }
-.radio {
-  display: flex;
-}
+
 .place_for_text {
   display: flex;
   flex-wrap: nowrap;
@@ -874,10 +892,10 @@ input[type="radio"]:checked:after {
 
 .pub {
   text-decoration: none;
-  color: aquamarine;
+  color: $dark-akvamarine;
 }
 .pub:hover {
-  color: yellow;
+  color: $yellow;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1190px) {
@@ -898,6 +916,11 @@ input[type="radio"]:checked:after {
     padding-right: 10px;
     text-align: center;
     padding-top: 10px;
+  }
+
+  .place_for_text_inside {
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
 

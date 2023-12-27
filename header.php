@@ -40,9 +40,7 @@
                <a href="#" class="header_phone">
                <img src="./assets/icon/solar_phone.svg" alt="Кнопка для звонка по телефону">
                </a>
-               <a href="#" class="oko">
-               <img src="./assets/icon/Oko.svg" alt="Кнопка, включающая версию для слабовидящих">
-               </a>
+              
             </div>
          </div>
       

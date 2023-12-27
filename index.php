@@ -712,8 +712,8 @@
 
       <div class="checkbox_button">
           <div class="chekcbox">
-                <div>
-              <input type="radio" name="field" id="mc2">
+            <div>
+            <input type="radio" name="field" id="mc2">
                 <label for="mc2">Юр.лицо</label>
                 </div>
                 <div>
@@ -722,7 +722,7 @@
                 </div>
           </div>
           <div class="text_down">
-            <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a href="./polzovatelskoe-soglashenie.php" class="pub">с политикой конфеденциальности</a> и <a href="./publichnaya-oferta.php" class="pub">договором публичной оферты.</a></p>
+            <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a href="./polzovatelskoe-soglashenie.php" class="pub" target="_blank">с политикой конфеденциальности</a> и <a href="./publichnaya-oferta.php" class="pub" target="_blank">договором публичной оферты.</a></p>
           </div>
           <div class="button_for_form">
             <button class="button" type="submit">Отправить заявку!</button>

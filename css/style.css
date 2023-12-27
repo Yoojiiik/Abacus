@@ -30,7 +30,7 @@
   width: 436px;
   height: 87px;
   border-radius: 50px;
-  background-color: #FFC700;
+  background-color: #ffc700;
   box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
   border: none;
   font-family: "Roboto Bold", sans-serif;
@@ -90,7 +90,7 @@ h2 {
   align-items: center;
   border-radius: 50px;
   border-radius: 50px;
-  background: #FFC700;
+  background: #ffc700;
   box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
   border: none;
 }
@@ -100,7 +100,7 @@ h2 {
     margin: 0 auto;
   }
   .header-top__abacus {
-    background: #02BF91;
+    background: #02bf91;
   }
   .header-top__nav {
     margin: 0 auto;
@@ -112,6 +112,9 @@ h2 {
     align-items: center;
     padding: 0 46px;
     margin: 0 auto;
+  }
+  .header-top__menu a:hover {
+    color: #ffc700;
   }
   .header-top__link {
     color: #ffffff;
@@ -154,17 +157,12 @@ h2 {
   }
   .header_mail {
     display: flex;
-    padding: 8%;
+    padding: 10%;
     height: 50px;
   }
   .header_phone {
     display: flex;
     padding: 6%;
-    height: 50px;
-  }
-  .oko {
-    display: flex;
-    padding: 8%;
     height: 50px;
   }
   .hamburger-menu {
@@ -174,6 +172,10 @@ h2 {
 @media (min-width: 320px) and (max-width: 768px) {
   .header-top__abacus {
     display: none;
+  }
+  .hamburger-menu {
+    display: flex;
+    align-items: center;
   }
   #menu__toggle {
     opacity: 0;
@@ -203,6 +205,7 @@ h2 {
     height: 26px;
     cursor: pointer;
     z-index: 1;
+    padding-top: 30px;
   }
   .menu__btn > span,
   .menu__btn > span::before,
@@ -241,7 +244,7 @@ h2 {
     text-decoration: none;
   }
   .menu__box a:hover {
-    color: #02BF91;
+    color: #ffc700;
   }
   .centr_development {
     display: none;
@@ -249,17 +252,19 @@ h2 {
   .header-top-menu-part-2 {
     display: flex;
     justify-content: end;
+    padding-top: 10px;
   }
   .left-part-menu-part-2 {
     display: flex;
   }
   .abacus_logo {
-    max-width: 150px;
+    max-width: 300px;
     padding-right: 50px;
     align-items: center;
   }
   .right-part-menu-part-2 {
     display: flex;
+    align-items: center;
   }
   .header_mail {
     display: flex;
@@ -269,11 +274,6 @@ h2 {
   .header_phone {
     display: flex;
     padding: 6%;
-    height: 40px;
-  }
-  .oko {
-    display: flex;
-    padding: 8%;
     height: 40px;
   }
 }
@@ -486,8 +486,8 @@ h2 {
 .device_choose_button .button {
   font-size: 1.2rem;
   padding: 20px 60px;
-  border-radius: 30px;
-  background-color: #ffd700;
+  border-radius: 50px;
+  background-color: #ffc700;
   box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
 }
 
@@ -778,10 +778,19 @@ form {
   flex-flow: column wrap;
 }
 
-.form {
+.formp {
   margin: 0 auto;
-  text-align: center;
+}
+
+.tell_with_me {
   padding-top: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+  text-align: center;
 }
 
 .h2 {
@@ -808,7 +817,15 @@ form {
 
 .checkbox_button {
   display: flex;
+  justify-content: center;
   flex-flow: column wrap;
+}
+.checkbox_button .button {
+  font-size: 1.2rem;
+  padding: 20px 60px;
+  border-radius: 50px;
+  background-color: #ffc700;
+  box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
 }
 
 .chekcbox {
@@ -822,10 +839,6 @@ form {
   margin: 0;
   padding-bottom: 50px;
   padding-top: 10px;
-}
-
-.radio {
-  display: flex;
 }
 
 .place_for_text {
@@ -888,7 +901,7 @@ input[type=radio]:checked:after {
   top: -2px;
   left: -1px;
   position: relative;
-  background-color: #FFC700;
+  background-color: #ffc700;
   content: "";
   display: inline-block;
   visibility: visible;
@@ -897,11 +910,11 @@ input[type=radio]:checked:after {
 
 .pub {
   text-decoration: none;
-  color: aquamarine;
+  color: #1a867e;
 }
 
 .pub:hover {
-  color: yellow;
+  color: #ffc700;
 }
 
 @media screen and (min-width: 320px) and (max-width: 1190px) {
@@ -922,6 +935,10 @@ input[type=radio]:checked:after {
     padding-right: 10px;
     text-align: center;
     padding-top: 10px;
+  }
+  .place_for_text_inside {
+    max-width: 400px;
+    margin: 0 auto;
   }
 }
 .main-for-polzovatelskoe {
@@ -953,7 +970,7 @@ input[type=radio]:checked:after {
 }
 
 .footer {
-  background-color: #02BF91;
+  background-color: #02bf91;
   color: #ffffff;
   padding-top: 44px;
 }
