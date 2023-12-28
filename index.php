@@ -152,11 +152,49 @@
                   <img src="assets/pic/develop/ear1.png" class="card-img-bottom" alt="здесь изображено ухо">
                 </div>
               </div>
-
             </div>
           </div>
         </div>
       </section>
+
+
+      <section class="fotos" id="fotos">
+        <div class="fotos_block">
+          <div class="fotos_title">
+            <h2>Фото устройства</h2>
+          </div>
+          <div class="container-fluid fotos_corusel">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="fotos_galary carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/pic/fotos/fotos1.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/pic/fotos/fotos2.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/pic/fotos/fotos3.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/pic/fotos/fotos4.jpg" class="img-fluid" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+              </button>
+            </div>
+          </div>
+          <button type="button" class="btn button" href="#">Подробнее</button>
+          <button type="button" class="btn button" href="#">Приобрести устройство</button>
+        </div>
+      </section>
+
+
       <section class="about-the-device" id="about-the-device">
         <div class="container">
           <div class="about-the-device__title"><h2>Об устройстве</h2></div>

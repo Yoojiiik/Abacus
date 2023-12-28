@@ -385,7 +385,47 @@ h2 {
   }
 }
 
-// -----------------------------------HISTORY------------------------------------- //
+// -------------------------------------FOTOS------------------------------------- //
+.fotos_corusel {
+  height: 500px;
+  width: 600px;
+}
+.fotos {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  &_block .container-fluid {
+    padding: 0 80px;
+    margin-bottom: 50px;
+  }
+}
+.fotos_title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  h2 {
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    font-family: "Optima Cyr Bold", serif;
+    font-weight: 600;
+    font-size: 3.125rem;
+  }
+}
+
+.fotos_galary {
+  height: 500px;
+  img {
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    height: 70vh;
+  }
+}
+
+
+
 // -----------------------------------ABOUT_US------------------------------------ //
 .about_us {
   display: flex;
