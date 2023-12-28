@@ -440,12 +440,63 @@ h2 {
   font-weight: 600;
 }
 
+.fotos_corusel {
+  height: 500px;
+  width: 600px;
+}
+
+.fotos {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+.fotos_block .container-fluid {
+  padding: 0 80px;
+  margin-bottom: 50px;
+}
+
+.fotos_title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.fotos_title h2 {
+  flex-wrap: wrap;
+  display: flex;
+  align-content: center;
+  font-family: "Optima Cyr Bold", serif;
+  font-weight: 600;
+  font-size: 3.125rem;
+}
+
+.fotos_galary {
+  height: 500px;
+}
+.fotos_galary img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+  border-style: none;
+  height: 70vh;
+}
+
 .about_us {
   display: flex;
   justify-content: center;
   margin: 0 auto;
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
+}
+.about_us_list li {
+  padding-left: 10px;
+}
+.about_us_list li:first-child::marker {
+  content: url("/assets/pic/about_us/qu.png");
+  padding-top: 10px;
+}
+.about_us_list li:last-child {
+  list-style: none;
 }
 .about_us_title {
   display: flex;
@@ -476,8 +527,14 @@ h2 {
 .about_us .container-fluid .row .about_us_text {
   font-size: 1.5rem;
   font-family: "Roboto bold", sans-serif;
+  max-width: 510px;
 }
 
+@media (min-width: 360px) and (max-width: 767px) {
+  .about_us_list li {
+    font-size: 1rem;
+  }
+}
 .device_choose {
   display: flex;
   justify-content: center;
@@ -597,6 +654,8 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 .task_title h2 {
   flex-wrap: wrap;
@@ -1083,4 +1142,4 @@ input[type=radio]:checked:after {
   #footer__link_block {
     order: 4;
   }
-}
+}/*# sourceMappingURL=style.css.map */

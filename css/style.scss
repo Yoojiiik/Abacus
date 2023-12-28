@@ -385,7 +385,47 @@ h2 {
   }
 }
 
-// -----------------------------------HISTORY------------------------------------- //
+// -------------------------------------FOTOS------------------------------------- //
+.fotos_corusel {
+  height: 500px;
+  width: 600px;
+}
+.fotos {
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  &_block .container-fluid {
+    padding: 0 80px;
+    margin-bottom: 50px;
+  }
+}
+.fotos_title {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  h2 {
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    font-family: "Optima Cyr Bold", serif;
+    font-weight: 600;
+    font-size: 3.125rem;
+  }
+}
+
+.fotos_galary {
+  height: 500px;
+  img {
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    height: 70vh;
+  }
+}
+
+
+
 // -----------------------------------ABOUT_US------------------------------------ //
 .about_us {
   display: flex;
@@ -393,6 +433,18 @@ h2 {
   margin: 0 auto;
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
+  &_list {
+    li {
+      padding-left: 10px;
+    }
+    li:first-child::marker {
+      content: url("/assets/pic/about_us/qu.png");
+      padding-top: 10px;
+    }
+    li:last-child {
+      list-style: none;
+    }
+  }
   &_title {
     display: flex;
     padding: 20px;
@@ -420,8 +472,18 @@ h2 {
       .about_us_text {
         font-size: 1.5rem;
         font-family: "Roboto bold", sans-serif;
+        max-width: 510px;
+        
       }
     }
+  }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  .about_us_list {
+    li {
+      font-size: 1rem;
+    }
+    
   }
 }
 // ----------------------------------DEVICE_CHOOSE-------------------------------- //
@@ -552,6 +614,8 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
+  align-content: center;
+  text-align: center;
   h2 {
     flex-wrap: wrap;
     display: flex;
