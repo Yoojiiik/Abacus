@@ -50,8 +50,8 @@
                     <a href="https://vk.com/abacusulsk" target="_blank" class="footer__icon-link">
                         <img class="icon" src="./assets/icon/footer/vk.svg" alt="AbacusKids. VK-icon">
                     </a>
-                    <a href="https://t.me" target="_blank" class="footer__icon-link">
-                    <img class="icon" src="./assets/icon/footer/telegram.svg" alt="AbacusKids. Telegram-icon">
+                    <a href="https://wa.me/79603725885" target="_blank" class="footer__icon-link">
+                    <img class="icon" src="./assets/icon/footer/whatsapp-svgrepo-com.svg" alt="AbacusKids. Whatsapp-icon">
                     </a>
                 </picture>
             </div>
@@ -63,7 +63,11 @@
             <div class="protected">
                 <p class="footer_text">	&#169; 2023 Все права защищены</p>
             </div>
-        </div>
+            </div>
+            <div class="col">
+            <p class="footer_text">Сделано ученицами <a href="https://itgirlschool.com/">ITGERLSCHOOL</a></p>
+            </div>
+g        
     </div>
 </div>
 
