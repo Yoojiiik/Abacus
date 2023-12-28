@@ -432,6 +432,16 @@ h2 {
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
 }
+.about_us_list li {
+  padding-left: 10px;
+}
+.about_us_list li:first-child::marker {
+  content: url("/assets/pic/about_us/qu.png");
+  padding-top: 10px;
+}
+.about_us_list li:last-child {
+  list-style: none;
+}
 .about_us_title {
   display: flex;
   padding: 20px;
@@ -461,8 +471,14 @@ h2 {
 .about_us .container-fluid .row .about_us_text {
   font-size: 1.5rem;
   font-family: "Roboto bold", sans-serif;
+  max-width: 510px;
 }
 
+@media (min-width: 360px) and (max-width: 767px) {
+  .about_us_list li {
+    font-size: 1rem;
+  }
+}
 .device_choose {
   display: flex;
   justify-content: center;
@@ -588,6 +604,8 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 .task_title h2 {
   flex-wrap: wrap;
@@ -1098,4 +1116,4 @@ input[type=radio]:checked:after {
   #footer__link_block {
     order: 4;
   }
-}
+}/*# sourceMappingURL=style.css.map */

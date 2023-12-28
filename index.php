@@ -176,13 +176,11 @@
           <div class="container-fluid">
             <div class="about_us_card">
               <div class="row  justify-content-sm-start justify-content-md-start justify-content-lg-center">
-                <div class="about_us_text col-lg-5 col-md-7 col-sm-12">
-                  <p>
-                    Мы помогаем интеллектуальному развитию детей с ограниченными возможностями здоровья, сохраняя атмосферу детства.
-                  </p>
-                  <p>
-                    Мы стремимся быть лучшими. Создавая образовательную методику, инновационное устройство и методические материалы будущего, используя технологии и опыт лучших профессионалов в мире ментального счета.
-                  </p>
+                <div class="about_us_text col-lg-7 col-md-7 col-sm-12">
+                  <ul class="about_us_list">
+                    <li>Мы помогаем интеллектуальному развитию детей с ограниченными возможностями здоровья, сохраняя атмосферу детства.</li>
+                    <li>Мы стремимся быть лучшими. Создавая образовательную методику, инновационное устройство и методические материалы будущего, используя технологии и опыт лучших профессионалов в мире ментального счета.</li>
+                  </ul>
                 </div>
                 <div class="about_us_pic col-lg-4 col-md-4 d-sm-none d-lg-block d-md-block d-none">
                   <img src="assets/pic/about_us/about_us.jpg" alt="Здесь изображены две женщины. В руках у женщины, находящейся слева, инновационное электронное устройство AbacusKids">
@@ -346,10 +344,6 @@
         </div>
       </section>
 
-
-      <section class="mission">
-      <div class="container"></div>
-      </section>
 
       <section class="reviews__parents" id="reviews">
         <div class="container">

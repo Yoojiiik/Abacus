@@ -393,6 +393,18 @@ h2 {
   margin: 0 auto;
   border-bottom: 1px solid gray;
   padding-bottom: 20px;
+  &_list {
+    li {
+      padding-left: 10px;
+    }
+    li:first-child::marker {
+      content: url("/assets/pic/about_us/qu.png");
+      padding-top: 10px;
+    }
+    li:last-child {
+      list-style: none;
+    }
+  }
   &_title {
     display: flex;
     padding: 20px;
@@ -420,8 +432,18 @@ h2 {
       .about_us_text {
         font-size: 1.5rem;
         font-family: "Roboto bold", sans-serif;
+        max-width: 510px;
+        
       }
     }
+  }
+}
+@media (min-width: 360px) and (max-width: 767px) {
+  .about_us_list {
+    li {
+      font-size: 1rem;
+    }
+    
   }
 }
 // ----------------------------------DEVICE_CHOOSE-------------------------------- //
@@ -555,6 +577,8 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
+  align-content: center;
+  text-align: center;
   h2 {
     flex-wrap: wrap;
     display: flex;
