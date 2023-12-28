@@ -16,7 +16,6 @@ body {
 
 .container {
   max-width: 1920px;
-
   margin: 0 auto;
 }
 
@@ -58,21 +57,22 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 46px;
+    padding: 7px 46px;
     margin: 0 auto;
   }
 
   .header-top__menu a:hover {
-    color: $yellow;
+    color: $dark-akvamarine;
+    transition: 0.3s all;
   }
 
   .header-top__link {
     color: #ffffff;
-    font-size: 11 rem;
+    font-size: 1.25 rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-decoration: none;
   }
   .header-top-menu-part-2 {
@@ -89,17 +89,17 @@ h2 {
     display: flex;
   }
   .abacus_logo {
-    max-width: 210px;
+    max-width: 350px;
     padding-left: 46px;
   }
   .centr_development {
     display: flex;
     margin: 0 auto;
     text-align: start;
-    max-width: 250px;
+    max-width: 300px;
     font-size: 1rem;
     color: gray;
-    padding-left: 40px;
+    padding-left: 60px;
     vertical-align: middle;
   }
 
@@ -109,24 +109,45 @@ h2 {
   }
   .header_mail {
     display: flex;
-    padding: 10%;
+    margin: 10px;
     height: 50px;
+    align-items: center;
+    text-decoration: none;
   }
   .header_phone {
     display: flex;
-    padding: 6%;
+    margin: 10px;
     height: 50px;
+    align-items: center;
+    text-decoration: none;
+  }
+  .header_right_text:hover {
+    color: $dark-akvamarine;
+    transition: 0.3s all;
+  }
+  .header_right_text {
+    margin: 0 auto;
+    color: black;
+    margin-left: 4px;
   }
 
   .hamburger-menu {
     display: none;
   }
 }
-
+@media (min-width: 769px) and (max-width: 1100px) {
+  .right-part-menu-part-2 {
+    display: none;
+  }
+}
 @media (min-width: 320px) and (max-width: 768px) {
   .header-top__abacus {
     display: none;
   }
+  .right-part-menu-part-2 {
+    display: none;
+  }
+
   .hamburger-menu {
     display: flex;
     align-items: center;
@@ -183,26 +204,33 @@ h2 {
     top: 8px;
   }
   .menu__box {
-    display: block;
+    display: flex;
     position: absolute;
     visibility: hidden;
     top: 0;
     left: -100%;
     width: 220px;
+    height: 100vh;
+    flex-direction: column;
     margin: 0;
-    padding-left: 15%;
+    padding-left: 32px;
     background-color: white;
     list-style-type: none;
     padding-bottom: 10px;
     padding-top: 10px;
+    justify-content: center;
   }
   .menu__box a {
+    display: inline-block;
     color: black;
     text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 1.15rem;
   }
 
   .menu__box a:hover {
-    color: $yellow;
+    color: $dark-akvamarine;
+    transition: 0.3s all;
   }
   .centr_development {
     display: none;
@@ -221,10 +249,7 @@ h2 {
     padding-right: 50px;
     align-items: center;
   }
-  .right-part-menu-part-2 {
-    display: flex;
-    align-items: center;
-  }
+
   .header_mail {
     display: flex;
     padding: 8%;
@@ -240,35 +265,39 @@ h2 {
 // ------------------------------------MAIN--------------------------------------- //
 .banner {
   display: flex;
-  max-width: 1920px;
+  max-width: 100vw;
   margin: 0 auto;
 }
 .conteiner_banner-image {
   display: flex;
-  max-width: 1920px;
-  min-height: 800px;
-  background-image: url(/assets/pic/Paklin-47.png);
+  max-width: 2000px;
+  height: 1200px;
+  background-image: url(../assets/pic/Paklin-47.png);
   background-repeat: no-repeat;
   background-size: cover;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  align-content: space-between;
+  justify-content: end;
+  align-items: center;
+  margin: 0 auto;
+}
+.title_banner {
+  display: flex;
 }
 .title_banner-text {
   font-family: "Optima Cyr Bold", serif;
   font-size: 4rem;
   font-weight: 700;
   margin-top: 100px;
-  margin-left: 400px;
   color: $white;
   text-align: end;
   padding-right: 100px;
+  max-width: 1400px;
 }
 .banner-button {
   display: flex;
-  margin-top: 70px;
-  justify-content: flex-end;
-  padding-right: 100px;
+  margin-top: 20px;
+  justify-content: center;
+  padding-right: 50px;
 }
 .submit_banner {
   font-family: "Roboto Regular", sans-serif;
@@ -285,6 +314,53 @@ h2 {
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   background-color: #ffffff69;
   margin-right: 50px;
+}
+.aform {
+  color: black;
+  text-decoration: none;
+}
+.aform:hover {
+  color: $dark-akvamarine;
+}
+.submit_banner:hover {
+  background-color: white;
+}
+
+@media (min-width: 769px) and (max-width: 1100px) {
+  .conteiner_banner-image {
+    display: flex;
+    max-width: 1100px;
+    height: 100vh;
+    background-image: url(../assets/pic/Paklin-47-10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .conteiner_banner-image {
+    display: flex;
+    background-image: url(../assets/pic/Paklin-47-20.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+  }
+  .banner-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    padding-right: 100px;
+  }
+  .submit_banner {
+    margin: 10px 2px;
+  }
 }
 
 // -----------------------------------FOR_WHO------------------------------------- //
@@ -890,6 +966,9 @@ form {
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
+  max-width: 928px;
+  text-align: center;
+  margin: 0 auto;
 
   .button {
     font-size: medium;
@@ -1063,7 +1142,7 @@ input[type="radio"]:checked:after {
     padding: 0;
     list-style-type: none;
   }
-  img .icon {
+  .icon {
     width: 24px;
     height: 24px;
   }

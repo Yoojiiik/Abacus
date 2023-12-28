@@ -8,10 +8,10 @@
       <div class="conteiner_banner-image">
         <div class="title_banner">
           <h1 class="title_banner-text">Электронное звуковое устройство “AbacusKids”</h1>
-          <div class="banner-button">
-            <button class="submit_banner" type="button">Купить</button>
-            <button class="submit_banner" type="button">Подробнее</button>
           </div>
+          <div class="banner-button">
+            <button class="submit_banner" type="button"><a href="#form" class="aform">Купить</a></button>
+            <button class="submit_banner" type="button"><a href="#about-the-device" class="aform">Подробнее</a></button>
         </div>
       </section>
 
@@ -55,8 +55,7 @@
 
               <div class="card col-md-4 col-lg-4 col-xl-2">
                 <div class="card-body">
-                  <p class="card-text">взрослые с когнитивными нарушениями, перенесшие инсульт,
-                      с частичной потерей памяти</p>
+                  <p class="card-text">взрослые с когнитивными нарушениями</p>
                 </div>
                 <img src="assets/pic/for_who/person.png" class="card-img-bottom" alt="здесь изображена голова человека с мозгом">
               </div>
@@ -199,9 +198,7 @@
         <div class="container">
           <div class="about-the-device__title"><h2>Об устройстве</h2></div>
           <div class="about-the-device__video">
-            <video controls type="video/mp4" controlslist="nodownload" width="522px" height="300px">
-              <source src="./assets/video/устройство.mp4" type="video/mp4">
-            </video>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/gYackoTWFcE?si=ulWh-2otswaR_SmK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
         </div>
       </section>
@@ -653,15 +650,10 @@
                 <div class="carousel-item active">
                   <div class="card-wrapper">
                     <div class="videoblog_card">
-                      <video class="video_1920" controls type="video/mp4" controlslist="nodownload"> 
-                      Ваш браузер не поддерживает тег <code>video</code>.
-                        <source src="./assets/video/отзыв_1.mp4" type="video/mp4">
-                      </video>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/LItt_INMPzY?si=0pYVgOpzxbGPYKer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                       <div class="videoblog_card">
-                        <video class="video_1920" controls type="video/mp4" controlslist="nodownload">
-                          <source src="./assets/video/отзыв_2.mp4" type="video/mp4">
-                        </video>
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/BvoggcKSI5s?si=tXt6bAeyeXXYrloW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                       </div>
                   </div>
                 </div>
@@ -669,7 +661,7 @@
                   <div class="card-wrapper">
                     <div class="videoblog_card" type="video/mp4">
                         <video class="video_1920" controls type="video/mp4" controlslist="nodownload">
-                          <source src="./assets/video/отзыв_3.mp4" type="video/mp4">
+                        
                         </video>
                     </div>
                   </div>
@@ -771,8 +763,8 @@
       <div class="checkbox_button">
           <div class="chekcbox">
             <div>
-            <input type="radio" name="field" id="mc2">
-                <label for="mc2">Юр.лицо</label>
+            <input type="radio" name="field" id="mc1">
+                <label for="mc1">Юр.лицо</label>
                 </div>
                 <div>
               <input type="radio" name="field" id="mc2">
