@@ -187,10 +187,9 @@
                 <span class="visually-hidden">Следующий</span>
               </button>
             </div>
-          </div>
-          <button type="button" class="btn button" href="#">Подробнее</button>
-          <button type="button" class="btn button" href="#">Приобрести устройство</button>
-        </div>
+            <div class="device_choose_button">
+            <button type="button" class="btn button"><a href="#form" class="bform">Приобрести устройство</a></button>
+          </div>git п
       </section>
 
 

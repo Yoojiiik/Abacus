@@ -474,6 +474,7 @@ h2 {
   &_block .container-fluid {
     padding: 0 80px;
     margin-bottom: 50px;
+    height: 600px;
   }
 }
 .fotos_title {
@@ -489,7 +490,9 @@ h2 {
     font-size: 3.125rem;
   }
 }
-
+.device_choose_button {
+  margin-top: 50px;
+}
 .fotos_galary {
   height: 500px;
   img {
@@ -499,8 +502,6 @@ h2 {
     height: 70vh;
   }
 }
-
-
 
 // -----------------------------------ABOUT_US------------------------------------ //
 .about_us {
@@ -549,7 +550,6 @@ h2 {
         font-size: 1.5rem;
         font-family: "Roboto bold", sans-serif;
         max-width: 510px;
-        
       }
     }
   }
@@ -559,7 +559,6 @@ h2 {
     li {
       font-size: 1rem;
     }
-    
   }
 }
 // ----------------------------------DEVICE_CHOOSE-------------------------------- //
@@ -690,8 +689,6 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
-  align-content: center;
-  text-align: center;
   h2 {
     flex-wrap: wrap;
     display: flex;

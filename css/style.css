@@ -532,6 +532,7 @@ h2 {
 .fotos_block .container-fluid {
   padding: 0 80px;
   margin-bottom: 50px;
+  height: 600px;
 }
 
 .fotos_title {
@@ -546,6 +547,10 @@ h2 {
   font-family: "Optima Cyr Bold", serif;
   font-weight: 600;
   font-size: 3.125rem;
+}
+
+.device_choose_button {
+  margin-top: 50px;
 }
 
 .fotos_galary {
@@ -732,8 +737,6 @@ h2 {
   display: flex;
   padding: 20px;
   justify-content: center;
-  align-content: center;
-  text-align: center;
 }
 .task_title h2 {
   flex-wrap: wrap;
@@ -1223,4 +1226,4 @@ input[type=radio]:checked:after {
   #footer__link_block {
     order: 4;
   }
-}/*# sourceMappingURL=style.css.map */
+}
