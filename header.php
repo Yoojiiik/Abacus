@@ -5,22 +5,22 @@
          <nav class="header-top__nav">
                <ul class="header-top__menu">
                <li class="header-top__item">
-                     <a href="#" class="header-top__link">Для кого</a>
+                     <a href="#for_who" class="header-top__link">Для кого</a>
                   </li>
                   <li class="header-top__item">
-                     <a href="#" class="header-top__link">О нас</a>
+                     <a href="#about_us" class="header-top__link">О нас</a>
                   </li>
                   <li class="header-top__item">
-                     <a href="#" class="header-top__link">Задачи устройства</a>
+                     <a href="#task" class="header-top__link">Задачи устройства</a>
                   </li>
                   <li class="header-top__item">
-                     <a href="#" class="header-top__link">Видео</a>
+                     <a href="#about-the-device" class="header-top__link">Видео</a>
                   </li>
                   <li class="header-top__item">
-                     <a href="#" class="header-top__link">Отзывы</a>
+                     <a href="#reviews" class="header-top__link">Отзывы</a>
                   </li>
                   <li class="header-top__item">
-                     <a href="#" class="header-top__link">Контакты</a>
+                     <a href="#footer" class="header-top__link">Контакты</a>
                   </li>
                </ul>
 
@@ -53,12 +53,12 @@
       </label>
    
       <ul class="menu__box">
-            <li><a class="menu__item" href="#">Для кого</a></li>
-            <li><a class="menu__item" href="#">О нас</a></li>
-            <li><a class="menu__item" href="#">Задачи устройства</a></li>
-            <li><a class="menu__item" href="#">Видео</a></li>
-            <li><a class="menu__item" href="#">Отзывы</a></li>
-            <li><a class="menu__item" href="#">Контакты</a></li>
+            <li><a class="menu__item" href="#for_who">Для кого</a></li>
+            <li><a class="menu__item" href="#about_us">О нас</a></li>
+            <li><a class="menu__item" href="#task">Задачи устройства</a></li>
+            <li><a class="menu__item" href="#about-the-device">Видео</a></li>
+            <li><a class="menu__item" href="#reviews">Отзывы</a></li>
+            <li><a class="menu__item" href="#footer">Контакты</a></li>
       </ul>
    </div>
 
