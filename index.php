@@ -259,7 +259,7 @@
             </div>
           </div>
           <div class="device_choose_button">
-            <button type="button" class="btn button">Приобрести устройство</button>
+            <button type="button" class="btn button"><a href="#form" class="bform">Приобрести устройство</a></button>
           </div>
         </div>
       </section>
@@ -711,7 +711,7 @@
       <section  class="form" id="form">
         <div class="forh2">
         <h2 class="tell_with_me">Свяжитесь с нами!</h2>
-        <p class="formp">Остались вопросы или замечания? Просто напишите нам сообщение!</p>
+        <p class="formp">Хотите приобрести устройство?Остались вопросы или замечания? Просто напишите нам сообщение!</p>
         </div>
 
   <form action="index.html" method="post" class="form-two">

@@ -551,6 +551,10 @@ h2 {
 .device_choose_button .button:hover {
   background-color: #ffb800;
 }
+.device_choose_button .button .bform {
+  color: black;
+  text-decoration: none;
+}
 
 @media (min-width: 360px) and (max-width: 570px) {
   .device_choose_card p {
