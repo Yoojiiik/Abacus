@@ -67,7 +67,7 @@
             <div class="col">
             <p class="footer_text">Сделано ученицами <a href="https://itgirlschool.com/">ITGERLSCHOOL</a></p>
             </div>
-g        
+        
     </div>
 </div>
 
