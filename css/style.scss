@@ -824,11 +824,13 @@ form {
   flex-flow: column wrap;
 
   .button {
-    font-size: 1.2rem;
+    font-size: medium;
     padding: 20px 60px;
     border-radius: 50px;
     background-color: $yellow;
     box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
+    height: 60px;
+    width: auto;
     &:hover {
       background-color: #ffb800;
     }

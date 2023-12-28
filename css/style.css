@@ -842,11 +842,13 @@ form {
   flex-flow: column wrap;
 }
 .checkbox_button .button {
-  font-size: 1.2rem;
+  font-size: medium;
   padding: 20px 60px;
   border-radius: 50px;
   background-color: #ffc700;
   box-shadow: 5px 4px 5px 1px rgba(64, 67, 69, 0.37);
+  height: 60px;
+  width: auto;
 }
 .checkbox_button .button:hover {
   background-color: #ffb800;
