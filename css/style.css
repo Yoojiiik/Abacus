@@ -317,17 +317,11 @@ h2 {
     height: 40px;
   }
 }
-.banner {
-  display: flex;
-  max-width: 100vw;
-  margin: 0 auto;
-}
-
 .conteiner_banner-image {
   display: flex;
-  max-width: 2000px;
-  height: 1200px;
-  background-image: url(../assets/pic/Paklin-47.png);
+  max-width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/pic/Paklin-47.png");
   background-repeat: no-repeat;
   background-size: cover;
   flex-wrap: wrap;
@@ -342,20 +336,23 @@ h2 {
 
 .title_banner-text {
   font-family: "Optima Cyr Bold", serif;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   margin-top: 100px;
+  margin-bottom: 5px;
   color: #ffffff;
   text-align: end;
   padding-right: 100px;
+  padding-left: 250px;
   max-width: 1400px;
 }
 
 .banner-button {
   display: flex;
-  margin-top: 20px;
+  margin-top: 50px;
   justify-content: center;
   padding-right: 50px;
+  margin-bottom: 1px;
 }
 
 .submit_banner {
@@ -393,7 +390,7 @@ h2 {
     display: flex;
     max-width: 1100px;
     height: 100vh;
-    background-image: url(../assets/pic/Paklin-47-10.png);
+    background-image: url("../assets/pic/Paklin-47-10.png");
     background-repeat: no-repeat;
     background-size: cover;
     flex-wrap: wrap;
@@ -401,26 +398,45 @@ h2 {
     justify-content: center;
     align-items: end;
   }
+  .title_banner-text {
+    font-family: "Optima Cyr Bold", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 @media (min-width: 320px) and (max-width: 768px) {
   .conteiner_banner-image {
     display: flex;
-    background-image: url(../assets/pic/Paklin-47-20.png);
+    background-image: url("../assets/pic/Paklin-47-20.png");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .title_banner-text {
+    font-family: "Optima Cyr Bold", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: flex-start;
   }
   .banner-button {
     display: flex;
     flex-wrap: wrap;
     justify-content: end;
     padding-right: 100px;
+    margin-top: 100px;
   }
   .submit_banner {
-    margin: 10px 2px;
+    margin: 10px 70px;
   }
 }
 .for_who {
