@@ -12,6 +12,7 @@ body {
   margin: 0;
   font-family: "Roboto Regular", sans-serif;
   font-size: 16px;
+  min-width: 360px;
 }
 
 .container {
@@ -23,6 +24,10 @@ h2 {
   font-family: "Optima Cyr Bold", serif;
   font-weight: 700;
   font-style: normal;
+}
+
+button {
+  transition: 0.3s all;
 }
 
 .button {
@@ -40,7 +45,7 @@ h2 {
 
 // -----------------------------------HEADER-------------------------------------- //
 
-@media (min-width: 769px) and (max-width: 1920px) {
+@media (max-width: 1920px) {
   .header-top__wrapper {
     margin: 0 auto;
   }
@@ -95,7 +100,7 @@ h2 {
   .centr_development {
     display: flex;
     margin: 0 auto;
-    text-align: start;
+    text-align: left;
     max-width: 300px;
     font-size: 1rem;
     color: gray;
@@ -135,12 +140,12 @@ h2 {
     display: none;
   }
 }
-@media (min-width: 769px) and (max-width: 1100px) {
+@media (max-width: 1100px) {
   .right-part-menu-part-2 {
     display: none;
   }
 }
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .header-top__abacus {
     display: none;
   }
@@ -238,7 +243,7 @@ h2 {
 
   .header-top-menu-part-2 {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding-top: 10px;
   }
   .left-part-menu-part-2 {
@@ -272,11 +277,11 @@ h2 {
   display: flex;
   max-width: 2000px;
   height: 1200px;
-  background-image: url(../assets/pic/Paklin-47.png);
+  background-image: url("../assets/pic/Paklin-47.png");
   background-repeat: no-repeat;
   background-size: cover;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   margin: 0 auto;
 }
@@ -289,7 +294,7 @@ h2 {
   font-weight: 700;
   margin-top: 100px;
   color: $white;
-  text-align: end;
+  text-align: right;
   padding-right: 100px;
   max-width: 1400px;
 }
@@ -318,6 +323,10 @@ h2 {
 .aform {
   color: black;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s all;
 }
 .aform:hover {
   color: $dark-akvamarine;
@@ -326,40 +335,47 @@ h2 {
   background-color: white;
 }
 
-@media (min-width: 769px) and (max-width: 1100px) {
+@media (max-width: 1100px) {
   .conteiner_banner-image {
     display: flex;
     max-width: 1100px;
     height: 100vh;
-    background-image: url(../assets/pic/Paklin-47-10.png);
+    background-image: url("../assets/pic/Paklin-47-10.png");
     background-repeat: no-repeat;
     background-size: cover;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .conteiner_banner-image {
     display: flex;
-    background-image: url(../assets/pic/Paklin-47-20.png);
+    background-image: url("../assets/pic/Paklin-47-20.png");
     background-repeat: no-repeat;
     background-size: cover;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
   }
   .banner-button {
     display: flex;
     flex-wrap: wrap;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 100px;
   }
   .submit_banner {
     margin: 10px 2px;
+  }
+
+  .title_banner-text {
+    margin-top: 0;
+    padding-right: 0;
+    padding: 0 1rem;
+    font-size: 3rem;
   }
 }
 
@@ -392,7 +408,7 @@ h2 {
 
 .for_who_card div {
   display: grid;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .for_who_card .card {
@@ -554,10 +570,26 @@ h2 {
     }
   }
 }
-@media (min-width: 360px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .about_us_list {
     li {
       font-size: 1rem;
+    }
+  }
+
+  .fotos_block {
+    .container-fluid {
+      padding: 0 20px;
+    }
+  }
+
+  .fotos_corusel {
+    width: 100%;
+  }
+
+  .fotos_title {
+    h2 {
+      font-size: 2rem;
     }
   }
 }
@@ -596,7 +628,7 @@ h2 {
   div {
     display: flex;
     flex-wrap: wrap;
-    align-items: start;
+    align-items: flex-start;
   }
   p {
     font-size: 1.5rem;
@@ -637,7 +669,7 @@ h2 {
   }
 }
 
-@media (min-width: 360px) and (max-width: 570px) {
+@media (max-width: 570px) {
   .device_choose_card {
     p {
       font-size: 1.09rem;
@@ -703,7 +735,7 @@ h2 {
   div {
     display: flex;
     flex-wrap: wrap;
-    align-items: start;
+    align-items: flex-start;
   }
   .row {
     margin-bottom: 30px;
@@ -732,7 +764,7 @@ h2 {
   }
 }
 
-@media (min-width: 360px) and (max-width: 570px) {
+@media (max-width: 570px) {
   .task_card {
     div:first-child {
       justify-content: center;
@@ -794,7 +826,7 @@ h2 {
 .carousel-control-next {
   width: 50px;
 }
-@media screen and (min-width: 1191px) and (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .reviews576 {
     display: none;
   }
@@ -802,7 +834,7 @@ h2 {
     display: block;
   }
 }
-@media screen and (min-width: 280px) and (max-width: 1190px) {
+@media screen and (max-width: 1190px) {
   .reviews {
     &_card {
       width: 353px;
@@ -817,7 +849,7 @@ h2 {
     display: block;
   }
   .carousel-inner {
-    padding: 90px 25px;
+    padding: 90px 0;
   }
 
   .carousel-control-next svg {
@@ -865,7 +897,7 @@ h2 {
   margin: 9px 0 41px 0;
 }
 
-@media screen and (min-width: 1191px) and (max-width: 1920px) {
+@media screen and (max-width: 1920px) {
   .videoblog1920 {
     display: block;
   }
@@ -873,7 +905,7 @@ h2 {
     display: none;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 1190px) {
+@media screen and (max-width: 1190px) {
   .videoblog1920 {
     display: none;
   }
@@ -1013,6 +1045,7 @@ form {
   border-radius: 20px;
   padding-left: 20px;
   padding-top: 10px;
+  resize: none;
 }
 .lebel {
   width: 100%;
@@ -1063,7 +1096,7 @@ input[type="radio"]:checked:after {
   color: $yellow;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1190px) {
+@media screen and (max-width: 1190px) {
   .form-two-inside {
     display: flex;
     flex-wrap: wrap;
