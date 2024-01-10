@@ -879,7 +879,7 @@
                     <div class="text_down">
                         <p class="press_button">Нажимая на кнопку “Отправить заявку!” Вы автоматически соглашаетесь <a
                                 href="./polzovatelskoe-soglashenie.php" class="pub" target="_blank">с политикой
-                                конфеденциальности</a> и <a href="./publichnaya-oferta.php" class="pub"
+                                конфиденциальности</a> и <a href="./publichnaya-oferta.php" class="pub"
                                 target="_blank">договором публичной оферты.</a></p>
                     </div>
                     <div class="button_for_form">
@@ -887,7 +887,6 @@
                     </div>
                 </div>
             </form>
-
         </section>
 
     </main>
